@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/obj/Debug
+/.vs/DesignPatterns/v14
+/packages/NUnit.3.2.1
+/bin/Debug
+/Tests/obj/Debug
+/Tests/bin/Debug
+/DesignPatterns/obj/Debug
+/DesignPatterns/bin/Debug
