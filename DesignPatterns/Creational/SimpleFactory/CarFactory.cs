@@ -2,6 +2,8 @@
 {
     using System;
 
+    using DesignPatterns.Creational.Common;
+
     public class CarFactory
     {
         public enum Cars

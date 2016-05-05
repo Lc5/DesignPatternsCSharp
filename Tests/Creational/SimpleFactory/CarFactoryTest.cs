@@ -2,6 +2,7 @@
 {
     using System;
 
+    using DesignPatterns.Creational.Common;
     using DesignPatterns.Creational.SimpleFactory;
 
     using NUnit.Framework;

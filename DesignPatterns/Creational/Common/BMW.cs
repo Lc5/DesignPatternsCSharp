@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Creational.SimpleFactory
+﻿namespace DesignPatterns.Creational.Common
 {
     using System;
 
