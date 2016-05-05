@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Creational\SimpleFactory\SimpleFactoryTest.cs" />
+    <Compile Include="Creational\SimpleFactory\CarFactoryTest.cs" />
     <Compile Include="Creational\Singleton\SingletonTest.cs" />
     <Compile Include="Creational\Singleton\ThreadSafeSingletonTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

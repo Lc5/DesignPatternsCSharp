@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class SimpleFactory
+    public class CarFactory
     {
         public enum Cars
         {
