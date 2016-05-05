@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creational\SimpleFactory\SimpleFactoryTest.cs" />
     <Compile Include="Creational\Singleton\SingletonTest.cs" />
     <Compile Include="Creational\Singleton\ThreadSafeSingletonTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -56,6 +57,9 @@
       <Project>{b75365e6-b18a-4b81-957e-0863db236d69}</Project>
       <Name>DesignPatterns</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

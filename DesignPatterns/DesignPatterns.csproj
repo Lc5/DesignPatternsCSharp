@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creational\SimpleFactory\Audi.cs" />
+    <Compile Include="Creational\SimpleFactory\BMW.cs" />
+    <Compile Include="Creational\SimpleFactory\ICar.cs" />
+    <Compile Include="Creational\SimpleFactory\SimpleFactory.cs" />
     <Compile Include="Creational\Singleton\Singleton.cs" />
     <Compile Include="Creational\Singleton\ThreadSafeSingleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
