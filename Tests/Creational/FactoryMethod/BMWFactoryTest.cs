@@ -13,6 +13,7 @@
         public void TestBuildCar()
         {
             var carFactory = new BMWFactory();
+
             Assert.That(carFactory.BuildCar(), Is.InstanceOf<BMW>());
         }
     }

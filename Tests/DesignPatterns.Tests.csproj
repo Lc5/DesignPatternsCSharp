@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creational\AbstractFactory\IGUIFactoryTest.cs" />
+    <Compile Include="Creational\AbstractFactory\OSX\GUIFactoryTest.cs" />
+    <Compile Include="Creational\AbstractFactory\Windows\GUIFactoryTest.cs" />
     <Compile Include="Creational\FactoryMethod\BMWFactoryTest.cs" />
     <Compile Include="Creational\FactoryMethod\AudiFactoryTest.cs" />
     <Compile Include="Creational\FactoryMethod\ICarFactoryTest.cs" />

@@ -40,6 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creational\AbstractFactory\IWindow.cs" />
+    <Compile Include="Creational\AbstractFactory\IContextMenu.cs" />
+    <Compile Include="Creational\AbstractFactory\IButton.cs" />
+    <Compile Include="Creational\AbstractFactory\IGUIFactory.cs" />
+    <Compile Include="Creational\AbstractFactory\OSX\ContextMenu.cs" />
+    <Compile Include="Creational\AbstractFactory\OSX\Button.cs" />
+    <Compile Include="Creational\AbstractFactory\OSX\GUIFactory.cs" />
+    <Compile Include="Creational\AbstractFactory\OSX\Window.cs" />
+    <Compile Include="Creational\AbstractFactory\Windows\Button.cs" />
+    <Compile Include="Creational\AbstractFactory\Windows\GUIFactory.cs" />
+    <Compile Include="Creational\AbstractFactory\Windows\Window.cs" />
+    <Compile Include="Creational\AbstractFactory\Windows\ContextMenu.cs" />
     <Compile Include="Creational\FactoryMethod\AudiFactory.cs" />
     <Compile Include="Creational\FactoryMethod\BMWFactory.cs" />
     <Compile Include="Creational\FactoryMethod\ICarFactory.cs" />
