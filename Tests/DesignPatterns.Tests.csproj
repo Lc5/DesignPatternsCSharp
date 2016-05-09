@@ -47,6 +47,8 @@
     <Compile Include="Creational\AbstractFactory\IGUIFactoryTest.cs" />
     <Compile Include="Creational\AbstractFactory\OSX\GUIFactoryTest.cs" />
     <Compile Include="Creational\AbstractFactory\Windows\GUIFactoryTest.cs" />
+    <Compile Include="Creational\Builder\CarBuilderDirectorTest.cs" />
+    <Compile Include="Creational\Builder\CarBuilderTest.cs" />
     <Compile Include="Creational\FactoryMethod\BMWFactoryTest.cs" />
     <Compile Include="Creational\FactoryMethod\AudiFactoryTest.cs" />
     <Compile Include="Creational\FactoryMethod\ICarFactoryTest.cs" />

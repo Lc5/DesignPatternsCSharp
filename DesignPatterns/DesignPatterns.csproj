@@ -52,6 +52,11 @@
     <Compile Include="Creational\AbstractFactory\Windows\GUIFactory.cs" />
     <Compile Include="Creational\AbstractFactory\Windows\Window.cs" />
     <Compile Include="Creational\AbstractFactory\Windows\ContextMenu.cs" />
+    <Compile Include="Creational\Builder\Car.cs" />
+    <Compile Include="Creational\Builder\CarBuilder.cs" />
+    <Compile Include="Creational\Builder\CarBuilderDirector.cs" />
+    <Compile Include="Creational\Builder\ICarBuilder.cs" />
+    <Compile Include="Creational\Builder\ICar.cs" />
     <Compile Include="Creational\FactoryMethod\AudiFactory.cs" />
     <Compile Include="Creational\FactoryMethod\BMWFactory.cs" />
     <Compile Include="Creational\FactoryMethod\ICarFactory.cs" />
