@@ -52,6 +52,7 @@
     <Compile Include="Creational\FactoryMethod\BMWFactoryTest.cs" />
     <Compile Include="Creational\FactoryMethod\AudiFactoryTest.cs" />
     <Compile Include="Creational\FactoryMethod\ICarFactoryTest.cs" />
+    <Compile Include="Creational\Prototype\PrototypeTest.cs" />
     <Compile Include="Creational\SimpleFactory\CarFactoryTest.cs" />
     <Compile Include="Creational\Singleton\SingletonTest.cs" />
     <Compile Include="Creational\Singleton\ThreadSafeSingletonTest.cs" />
