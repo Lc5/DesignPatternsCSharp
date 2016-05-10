@@ -72,6 +72,11 @@
     <Compile Include="Creational\Singleton\Singleton.cs" />
     <Compile Include="Creational\Singleton\ThreadSafeSingleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Adapter\Book.cs" />
+    <Compile Include="Structural\Adapter\EBookAdapter.cs" />
+    <Compile Include="Structural\Adapter\IEBook.cs" />
+    <Compile Include="Structural\Adapter\IPaperBook.cs" />
+    <Compile Include="Structural\Adapter\Kindle.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
