@@ -63,6 +63,8 @@
     <Compile Include="Creational\Common\Audi.cs" />
     <Compile Include="Creational\Common\BMW.cs" />
     <Compile Include="Creational\Common\ICar.cs" />
+    <Compile Include="Creational\ObjectPool\Pool.cs" />
+    <Compile Include="Creational\ObjectPool\PooledObject.cs" />
     <Compile Include="Creational\Prototype\ConcretePrototype2.cs" />
     <Compile Include="Creational\Prototype\ConcretePrototype1.cs" />
     <Compile Include="Creational\Prototype\Prototype.cs" />
