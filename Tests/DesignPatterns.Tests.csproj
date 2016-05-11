@@ -59,6 +59,7 @@
     <Compile Include="Creational\Singleton\ThreadSafeSingletonTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural\Adapter\EBookAdapterTest.cs" />
+    <Compile Include="Structural\Bridge\CircleTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -77,6 +77,11 @@
     <Compile Include="Structural\Adapter\IEBook.cs" />
     <Compile Include="Structural\Adapter\IPaperBook.cs" />
     <Compile Include="Structural\Adapter\Kindle.cs" />
+    <Compile Include="Structural\Bridge\Circle.cs" />
+    <Compile Include="Structural\Bridge\DrawingAPI2.cs" />
+    <Compile Include="Structural\Bridge\DrawingAPI1.cs" />
+    <Compile Include="Structural\Bridge\IDrawingAPI.cs" />
+    <Compile Include="Structural\Bridge\IShape.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
