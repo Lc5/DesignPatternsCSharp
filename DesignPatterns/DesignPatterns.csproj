@@ -91,6 +91,9 @@
     <Compile Include="Structural\Decorator\HorizontalScrollBarDecorator .cs" />
     <Compile Include="Structural\Decorator\VerticalScrollBarDecorator.cs" />
     <Compile Include="Structural\Decorator\WindowDecorator.cs" />
+    <Compile Include="Structural\Facade\Computer.cs" />
+    <Compile Include="Structural\Facade\IBios.cs" />
+    <Compile Include="Structural\Facade\IOs.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
