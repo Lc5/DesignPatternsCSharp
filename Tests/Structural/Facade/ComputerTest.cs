@@ -30,7 +30,7 @@
             var os = new Mock<IOs>();
             var computer = new Computer(bios.Object, os.Object);
 
-            computer.TurnOn();
+            computer.TurnOff();
 
             os.Verify(o => o.Halt());
             bios.Verify(b => b.PowerDown());          
