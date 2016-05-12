@@ -86,6 +86,11 @@
     <Compile Include="Structural\Composite\IFormElement.cs" />
     <Compile Include="Structural\Composite\InputElement.cs" />
     <Compile Include="Structural\Composite\TextElement.cs" />
+    <Compile Include="Structural\Decorator\IWindow.cs" />
+    <Compile Include="Structural\Decorator\SimpleWindow.cs" />
+    <Compile Include="Structural\Decorator\HorizontalScrollBarDecorator .cs" />
+    <Compile Include="Structural\Decorator\VerticalScrollBarDecorator.cs" />
+    <Compile Include="Structural\Decorator\WindowDecorator.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

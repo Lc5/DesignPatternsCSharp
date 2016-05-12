@@ -61,6 +61,7 @@
     <Compile Include="Structural\Adapter\EBookAdapterTest.cs" />
     <Compile Include="Structural\Bridge\CircleTest.cs" />
     <Compile Include="Structural\Composite\FormTest.cs" />
+    <Compile Include="Structural\Decorator\WindowDecoratorTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
