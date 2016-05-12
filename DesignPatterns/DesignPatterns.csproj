@@ -82,6 +82,10 @@
     <Compile Include="Structural\Bridge\DrawingAPI1.cs" />
     <Compile Include="Structural\Bridge\IDrawingAPI.cs" />
     <Compile Include="Structural\Bridge\IShape.cs" />
+    <Compile Include="Structural\Composite\Form.cs" />
+    <Compile Include="Structural\Composite\IFormElement.cs" />
+    <Compile Include="Structural\Composite\InputElement.cs" />
+    <Compile Include="Structural\Composite\TextElement.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -60,6 +60,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural\Adapter\EBookAdapterTest.cs" />
     <Compile Include="Structural\Bridge\CircleTest.cs" />
+    <Compile Include="Structural\Composite\FormTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
