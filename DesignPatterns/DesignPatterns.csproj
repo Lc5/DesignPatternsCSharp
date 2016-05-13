@@ -97,6 +97,10 @@
     <Compile Include="Structural\Flyweight\Circle.cs" />
     <Compile Include="Structural\Flyweight\IShape.cs" />
     <Compile Include="Structural\Flyweight\CircleFactory.cs" />
+    <Compile Include="Structural\Proxy\Car.cs" />
+    <Compile Include="Structural\Proxy\CarProxy.cs" />
+    <Compile Include="Structural\Proxy\Driver.cs" />
+    <Compile Include="Structural\Proxy\ICar.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
