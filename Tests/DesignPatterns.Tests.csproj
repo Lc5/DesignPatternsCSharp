@@ -67,6 +67,7 @@
     <Compile Include="Structural\Composite\FormTest.cs" />
     <Compile Include="Structural\Decorator\WindowDecoratorTest.cs" />
     <Compile Include="Structural\Facade\ComputerTest.cs" />
+    <Compile Include="Structural\Flyweight\TestCircleFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

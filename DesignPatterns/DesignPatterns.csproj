@@ -94,6 +94,9 @@
     <Compile Include="Structural\Facade\Computer.cs" />
     <Compile Include="Structural\Facade\IBios.cs" />
     <Compile Include="Structural\Facade\IOs.cs" />
+    <Compile Include="Structural\Flyweight\Circle.cs" />
+    <Compile Include="Structural\Flyweight\IShape.cs" />
+    <Compile Include="Structural\Flyweight\CircleFactory.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
