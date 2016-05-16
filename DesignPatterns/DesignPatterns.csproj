@@ -44,6 +44,12 @@
     <Compile Include="Behavioral\ChainOfResponsibility\ConcreteHandler2.cs" />
     <Compile Include="Behavioral\ChainOfResponsibility\ConcreteHandler1.cs" />
     <Compile Include="Behavioral\ChainOfResponsibility\Handler.cs" />
+    <Compile Include="Behavioral\Command\OpenSwitchCommand .cs" />
+    <Compile Include="Behavioral\Command\CloseSwitchCommand.cs" />
+    <Compile Include="Behavioral\Command\ICommand.cs" />
+    <Compile Include="Behavioral\Command\ISwitchable.cs" />
+    <Compile Include="Behavioral\Command\Light.cs" />
+    <Compile Include="Behavioral\Command\Switch.cs" />
     <Compile Include="Creational\AbstractFactory\IWindow.cs" />
     <Compile Include="Creational\AbstractFactory\IContextMenu.cs" />
     <Compile Include="Creational\AbstractFactory\IButton.cs" />
