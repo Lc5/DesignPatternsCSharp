@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Behavioral\ChainOfResponsibility\HandlerTest.cs" />
     <Compile Include="Behavioral\Command\SwitchTest.cs" />
+    <Compile Include="Behavioral\Interpreter\TokenReaderTest.cs" />
     <Compile Include="Creational\AbstractFactory\IGUIFactoryTest.cs" />
     <Compile Include="Creational\AbstractFactory\OSX\GUIFactoryTest.cs" />
     <Compile Include="Creational\AbstractFactory\Windows\GUIFactoryTest.cs" />

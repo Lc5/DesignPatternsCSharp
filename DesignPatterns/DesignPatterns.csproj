@@ -50,6 +50,11 @@
     <Compile Include="Behavioral\Command\ISwitchable.cs" />
     <Compile Include="Behavioral\Command\Light.cs" />
     <Compile Include="Behavioral\Command\Switch.cs" />
+    <Compile Include="Behavioral\Interpreter\SubtractExpression.cs" />
+    <Compile Include="Behavioral\Interpreter\AddExpression.cs" />
+    <Compile Include="Behavioral\Interpreter\IExpression.cs" />
+    <Compile Include="Behavioral\Interpreter\NumberExpression.cs" />
+    <Compile Include="Behavioral\Interpreter\TokenReader.cs" />
     <Compile Include="Creational\AbstractFactory\IWindow.cs" />
     <Compile Include="Creational\AbstractFactory\IContextMenu.cs" />
     <Compile Include="Creational\AbstractFactory\IButton.cs" />
