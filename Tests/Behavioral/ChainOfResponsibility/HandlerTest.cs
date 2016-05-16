@@ -5,7 +5,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    class TestHandler
+    class HandlerTest
     {
         [TestCase(1)]
         [TestCase(12)]

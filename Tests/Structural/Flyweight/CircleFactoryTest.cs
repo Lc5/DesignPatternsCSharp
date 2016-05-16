@@ -5,7 +5,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    class TestCircleFactory
+    class CircleFactoryTest
     {
         [SetUp]
         public void SetUp()
