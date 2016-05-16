@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\ChainOfResponsibility\ConcreteHandler3.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\ConcreteHandler2.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\ConcreteHandler1.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\Handler.cs" />
     <Compile Include="Creational\AbstractFactory\IWindow.cs" />
     <Compile Include="Creational\AbstractFactory\IContextMenu.cs" />
     <Compile Include="Creational\AbstractFactory\IButton.cs" />

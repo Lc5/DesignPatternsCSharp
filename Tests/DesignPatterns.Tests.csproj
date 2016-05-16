@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\ChainOfResponsibility\TestHandler.cs" />
     <Compile Include="Creational\AbstractFactory\IGUIFactoryTest.cs" />
     <Compile Include="Creational\AbstractFactory\OSX\GUIFactoryTest.cs" />
     <Compile Include="Creational\AbstractFactory\Windows\GUIFactoryTest.cs" />
