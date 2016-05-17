@@ -55,6 +55,10 @@
     <Compile Include="Behavioral\Interpreter\IExpression.cs" />
     <Compile Include="Behavioral\Interpreter\NumberExpression.cs" />
     <Compile Include="Behavioral\Interpreter\TokenReader.cs" />
+    <Compile Include="Behavioral\Iterator\ICollection.cs" />
+    <Compile Include="Behavioral\Iterator\Collection.cs" />
+    <Compile Include="Behavioral\Iterator\Iterator.cs" />
+    <Compile Include="Behavioral\Iterator\IIterator.cs" />
     <Compile Include="Creational\AbstractFactory\IWindow.cs" />
     <Compile Include="Creational\AbstractFactory\IContextMenu.cs" />
     <Compile Include="Creational\AbstractFactory\IButton.cs" />
