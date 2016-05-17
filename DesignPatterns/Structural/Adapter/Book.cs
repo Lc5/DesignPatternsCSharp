@@ -4,12 +4,12 @@
     {
         public void Open()
         {
-            //Open book
+            // Open book
         }
 
         public void TurnPage()
         {
-            //Turn the page
+            // Turn the page
         }
     }
 }

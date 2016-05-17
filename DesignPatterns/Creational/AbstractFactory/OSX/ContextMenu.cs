@@ -4,7 +4,7 @@
     {
         public void Render()
         {
-            //Render OSX context menu
+            // Render OSX context menu
         }
     }
 }

@@ -3,25 +3,22 @@
     using System;
 
     using DesignPatterns.Creational.AbstractFactory;
+    using DesignPatterns.Creational.AbstractFactory.OSX;
 
     using NUnit.Framework;
-    
-    using OSXGUIFactory = DesignPatterns.Creational.AbstractFactory.OSX.GUIFactory;
-
-    using WindowsGUIFactory = DesignPatterns.Creational.AbstractFactory.Windows.GUIFactory;
 
     [TestFixture]
-    class IGUIFactoryTest
+    public class IGUIFactoryTest
     {
-        [TestCase(typeof(OSXGUIFactory))]
-        [TestCase(typeof(WindowsGUIFactory))]
-        public void TestGUIFactoryCreatesComponents(Type GUIFactoryType)
+        [TestCase(typeof(GuiFactory))]
+        [TestCase(typeof(DesignPatterns.Creational.AbstractFactory.Windows.GuiFactory))]
+        public void TestGuiFactoryCreatesComponents(Type guiFactoryType)
         {
-            var GUIFactory = (IGUIFactory)Activator.CreateInstance(GUIFactoryType);
+            var guiFactory = (IGuiFactory)Activator.CreateInstance(guiFactoryType);
 
-            Assert.That(GUIFactory.CreateButton(), Is.InstanceOf<IButton>());
-            Assert.That(GUIFactory.CreateContextMenu(), Is.InstanceOf<IContextMenu>());
-            Assert.That(GUIFactory.CreateWindow(), Is.InstanceOf<IWindow>());
+            Assert.That(guiFactory.CreateButton(), Is.InstanceOf<IButton>());
+            Assert.That(guiFactory.CreateContextMenu(), Is.InstanceOf<IContextMenu>());
+            Assert.That(guiFactory.CreateWindow(), Is.InstanceOf<IWindow>());
         }
     }
 }

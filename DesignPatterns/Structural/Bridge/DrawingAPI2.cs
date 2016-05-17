@@ -1,10 +1,10 @@
 ﻿namespace DesignPatterns.Structural.Bridge
 {
-    public class DrawingAPI2 : IDrawingAPI
+    public class DrawingApi2 : IDrawingApi
     {
         public void DrawCircle(int x, int y, int radius)
         {
-            //Draw circle
+            // Draw circle
         }
     }
 }

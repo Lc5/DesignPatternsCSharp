@@ -4,7 +4,7 @@
     {
         public void Render()
         {
-            //Render Windows context menu
+            // Render Windows context menu
         }
     }
 }

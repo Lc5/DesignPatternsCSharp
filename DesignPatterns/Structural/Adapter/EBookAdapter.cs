@@ -2,7 +2,7 @@
 {
     public class EBookAdapter : IPaperBook
     {
-        private IEBook ebook;
+        private readonly IEBook ebook;
 
         public EBookAdapter(IEBook ebook)
         {

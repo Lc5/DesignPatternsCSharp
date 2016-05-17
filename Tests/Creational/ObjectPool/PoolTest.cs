@@ -6,7 +6,16 @@
 
     [TestFixture]
     public class PoolTest
-    {
+    {      
+        [Test]
+        public void TestPoolReturnsNewObjectWhenNotReleased()
+        {
+            var obj1 = Pool<ConcretePooledObject>.GetObject();
+            var obj2 = Pool<ConcretePooledObject>.GetObject();
+
+            Assert.That(obj1, Is.Not.EqualTo(obj2));
+        }
+
         [Test]
         public void TestPoolReturnsSameObjectWhenReleased()
         {
@@ -17,19 +26,10 @@
             Assert.That(obj1, Is.EqualTo(obj2));
         }
 
-        [Test]
-        public void TestPoolReturnsNewObjectWhenNotReleased()
-        {
-            var obj1 = Pool<ConcretePooledObject>.GetObject();
-            var obj2 = Pool<ConcretePooledObject>.GetObject();
-
-            Assert.That(obj1, Is.Not.EqualTo(obj2));
-        }
-
-        class ConcretePooledObject : PooledObject
+        private class ConcretePooledObject : PooledObject
         {
             public override void Cleanup()
-            {          
+            {
             }
         }
     }

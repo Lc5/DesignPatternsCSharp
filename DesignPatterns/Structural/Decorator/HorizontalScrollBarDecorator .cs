@@ -2,7 +2,8 @@
 {
     public class HorizontalScrollBarDecorator : WindowDecorator
     {
-        public HorizontalScrollBarDecorator(IWindow window) : base(window)
+        public HorizontalScrollBarDecorator(IWindow window)
+            : base(window)
         {
         }
 
@@ -22,7 +23,7 @@
 
         private void DrawHorizontalScrollBar()
         {
-            //Draw horizontal scroll bar
-        }        
+            // Draw horizontal scroll bar
+        }
     }
 }

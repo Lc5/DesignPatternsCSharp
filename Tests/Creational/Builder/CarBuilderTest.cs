@@ -5,20 +5,20 @@
     using NUnit.Framework;
 
     [TestFixture]
-    class CarBuilderTest
+    public class CarBuilderTest
     {
         [Test]
         public void TestBuildCar()
         {
             var carBuilder = new CarBuilder();
 
-            var car = carBuilder
-                .SetColor("Black")
-                .SetEngineCapacity(2000)
-                .SetName("BMW 320")
-                .SetNumberOfDoors(5)
-                .SetNumberOfSeats(5)
-                .BuildCar();
+            var car =
+                carBuilder.SetColor("Black")
+                    .SetEngineCapacity(2000)
+                    .SetName("BMW 320")
+                    .SetNumberOfDoors(5)
+                    .SetNumberOfSeats(5)
+                    .BuildCar();
 
             Assert.That(car.Color, Is.EqualTo("Black"));
             Assert.That(car.EngineCapacity, Is.EqualTo(2000));

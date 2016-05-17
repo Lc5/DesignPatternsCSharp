@@ -1,20 +1,19 @@
 ﻿namespace DesignPatterns.Tests.Creational.FactoryMethod
 {
     using DesignPatterns.Creational.Common;
-
     using DesignPatterns.Creational.FactoryMethod;
 
     using NUnit.Framework;
 
     [TestFixture]
-    class BMWFactoryTest
+    public class BmwFactoryTest
     {
         [Test]
         public void TestBuildCar()
         {
             var carFactory = new BMWFactory();
 
-            Assert.That(carFactory.BuildCar(), Is.InstanceOf<BMW>());
+            Assert.That(carFactory.BuildCar(), Is.InstanceOf<Bmw>());
         }
     }
 }

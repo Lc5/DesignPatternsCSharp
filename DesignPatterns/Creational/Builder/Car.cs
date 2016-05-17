@@ -1,7 +1,7 @@
 ﻿namespace DesignPatterns.Creational.Builder
 {
     using System;
-    
+
     public class Car : ICar
     {
         public string Color { get; set; }

@@ -1,8 +1,8 @@
 ﻿namespace DesignPatterns.Creational.Builder
-{ 
+{
     public class CarBuilder : ICarBuilder
     {
-        private ICar car;
+        private readonly ICar car;
 
         public CarBuilder()
         {

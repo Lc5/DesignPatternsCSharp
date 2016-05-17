@@ -2,8 +2,9 @@
 {
     public class Switch
     {
-        ICommand closeCommand;
-        ICommand openCommand;
+        private readonly ICommand closeCommand;
+
+        private readonly ICommand openCommand;
 
         public Switch(ICommand closeCommand, ICommand openCommand)
         {

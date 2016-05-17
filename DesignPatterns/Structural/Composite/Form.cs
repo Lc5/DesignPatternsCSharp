@@ -1,12 +1,16 @@
 ﻿namespace DesignPatterns.Structural.Composite
 {
     using System.Collections.Generic;
-
     using System.Text;
 
     public class Form : IFormElement
     {
-        private List<IFormElement> elements = new List<IFormElement>();
+        private readonly List<IFormElement> elements = new List<IFormElement>();
+
+        public void AddElement(IFormElement element)
+        {
+            this.elements.Add(element);
+        }
 
         public string Render(int indent = 0)
         {
@@ -22,11 +26,6 @@
             output.Append(new string(' ', indent) + "</form>\r\n");
 
             return output.ToString();
-        }
-
-        public void AddElement(IFormElement element)
-        {
-            this.elements.Add(element);
         }
     }
 }

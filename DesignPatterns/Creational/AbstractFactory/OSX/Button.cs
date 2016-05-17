@@ -4,7 +4,7 @@
     {
         public void Render()
         {
-            //Render OSX button
+            // Render OSX button
         }
     }
 }

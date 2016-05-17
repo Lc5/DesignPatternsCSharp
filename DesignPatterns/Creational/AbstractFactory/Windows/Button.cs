@@ -4,7 +4,7 @@
     {
         public void Render()
         {
-            //Render Windows button
+            // Render Windows button
         }
     }
 }

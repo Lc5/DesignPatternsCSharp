@@ -6,19 +6,19 @@
 
         private int radius;
 
-        public int X { get; set; }
-
-        public int Y { get; set; }
-
         public Circle(int radius, string color)
         {
             this.radius = radius;
             this.color = color;
         }
 
+        public int X { get; set; }
+
+        public int Y { get; set; }
+
         public void Draw()
         {
-            //Draw circle  
+            // Draw circle  
         }
     }
 }

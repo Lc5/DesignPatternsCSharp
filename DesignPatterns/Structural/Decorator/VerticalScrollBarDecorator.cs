@@ -2,7 +2,8 @@
 {
     public class VerticalScrollBarDecorator : WindowDecorator
     {
-        public VerticalScrollBarDecorator(IWindow window) : base(window)
+        public VerticalScrollBarDecorator(IWindow window)
+            : base(window)
         {
         }
 
@@ -22,7 +23,7 @@
 
         private void DrawVerticalScrollBar()
         {
-            //Draw vertical scroll bar
-        }      
+            // Draw vertical scroll bar
+        }
     }
 }

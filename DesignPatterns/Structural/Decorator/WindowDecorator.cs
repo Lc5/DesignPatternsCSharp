@@ -2,7 +2,7 @@
 {
     public abstract class WindowDecorator : IWindow
     {
-        private IWindow window;
+        private readonly IWindow window;
 
         public WindowDecorator(IWindow window)
         {

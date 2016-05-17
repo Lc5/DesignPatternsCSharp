@@ -4,7 +4,7 @@
 
     public sealed class ThreadSafeSingleton
     {
-        private static readonly Lazy<ThreadSafeSingleton> lazy =
+        private static readonly Lazy<ThreadSafeSingleton> Lazy =
             new Lazy<ThreadSafeSingleton>(() => new ThreadSafeSingleton());
 
         private ThreadSafeSingleton()
@@ -15,7 +15,7 @@
         {
             get
             {
-                return lazy.Value;
+                return Lazy.Value;
             }
         }
     }

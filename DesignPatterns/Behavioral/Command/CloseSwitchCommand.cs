@@ -2,7 +2,7 @@
 {
     public class CloseSwitchCommand : ICommand
     {
-        private ISwitchable switchable;
+        private readonly ISwitchable switchable;
 
         public CloseSwitchCommand(ISwitchable switchable)
         {

@@ -4,12 +4,12 @@
     {
         public void PressNext()
         {
-            //Press "Next page" button        
+            // Press "Next page" button        
         }
 
         public void PressStart()
         {
-            //Press "Start" button       
+            // Press "Start" button       
         }
     }
 }

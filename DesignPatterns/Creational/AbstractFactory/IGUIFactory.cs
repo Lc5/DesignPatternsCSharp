@@ -1,9 +1,11 @@
 ﻿namespace DesignPatterns.Creational.AbstractFactory
 {
-    public interface IGUIFactory
+    public interface IGuiFactory
     {
         IButton CreateButton();
+
         IContextMenu CreateContextMenu();
+
         IWindow CreateWindow();
     }
 }

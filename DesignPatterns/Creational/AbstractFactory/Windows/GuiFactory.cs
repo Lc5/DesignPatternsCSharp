@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Creational.AbstractFactory.Windows
 {
-    public class GUIFactory : IGUIFactory
+    public class GuiFactory : IGuiFactory
     {
         public IButton CreateButton()
         {

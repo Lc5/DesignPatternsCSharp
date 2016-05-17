@@ -4,7 +4,7 @@
     {
         public void Render()
         {
-            //Render OSX window
+            // Render OSX window
         }
     }
 }

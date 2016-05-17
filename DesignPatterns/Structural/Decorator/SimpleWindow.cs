@@ -6,7 +6,7 @@
 
         public void Draw()
         {
-            //Draw simple window
+            // Draw simple window
         }
     }
 }

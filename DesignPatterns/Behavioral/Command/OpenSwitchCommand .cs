@@ -2,7 +2,7 @@
 {
     public class OpenSwitchCommand : ICommand
     {
-        private ISwitchable switchable;
+        private readonly ISwitchable switchable;
 
         public OpenSwitchCommand(ISwitchable switchable)
         {

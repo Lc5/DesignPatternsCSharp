@@ -2,28 +2,29 @@
 {
     using System.Collections.Generic;
 
-    public static class Pool<T> where T : PooledObject, new()
+    public static class Pool<T>
+        where T : PooledObject, new()
     {
-        private static List<T> available = new List<T>();
+        private static readonly List<T> Available = new List<T>();
 
-        private static List<T> inUse = new List<T>();
+        private static readonly List<T> InUse = new List<T>();
 
         public static T GetObject()
         {
-            lock(available)
+            lock (Available)
             {
-                if (available.Count > 0)
+                if (Available.Count > 0)
                 {
-                    T obj = available[0];
-                    available.RemoveAt(0);
-                    inUse.Add(obj);
+                    var obj = Available[0];
+                    Available.RemoveAt(0);
+                    InUse.Add(obj);
 
                     return obj;
                 }
                 else
                 {
-                    T obj = new T();
-                    inUse.Add(obj);
+                    var obj = new T();
+                    InUse.Add(obj);
 
                     return obj;
                 }
@@ -32,11 +33,11 @@
 
         public static void ReleaseObject(T obj)
         {
-            lock (available)
+            lock (Available)
             {
                 obj.Cleanup();
-                inUse.Remove(obj);
-                available.Add(obj);
+                InUse.Remove(obj);
+                Available.Add(obj);
             }
         }
     }

@@ -2,12 +2,15 @@
 {
     public class Circle : IShape
     {
-        private int x;
-        private int y;
-        private int radius;
-        private IDrawingAPI drawingAPI;
+        private readonly IDrawingApi drawingAPI;
 
-        public Circle(int x, int y, int radius, IDrawingAPI drawingAPI)
+        private readonly int x;
+
+        private readonly int y;
+
+        private int radius;
+
+        public Circle(int x, int y, int radius, IDrawingApi drawingAPI)
         {
             this.x = x;
             this.y = y;

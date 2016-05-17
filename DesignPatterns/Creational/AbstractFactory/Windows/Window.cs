@@ -4,7 +4,7 @@
     {
         public void Render()
         {
-            //Render Windows window
+            // Render Windows window
         }
     }
 }

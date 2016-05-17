@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class BMW : ICar
+    public class Bmw : ICar
     {
         public void Drive()
         {

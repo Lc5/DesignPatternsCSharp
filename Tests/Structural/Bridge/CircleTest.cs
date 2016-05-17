@@ -7,13 +7,13 @@
     using NUnit.Framework;
 
     [TestFixture]
-    class CircleTest
+    public class CircleTest
     {
-        [TestCase(typeof(DrawingAPI1))]
-        [TestCase(typeof(DrawingAPI2))]
+        [TestCase(typeof(DrawingApi1))]
+        [TestCase(typeof(DrawingApi2))]
         public void TestDraw(Type drawingApiType)
         {
-            var drawingApi = (IDrawingAPI)Activator.CreateInstance(drawingApiType);
+            var drawingApi = (IDrawingApi)Activator.CreateInstance(drawingApiType);
 
             var circle = new Circle(0, 0, 10, drawingApi);
 

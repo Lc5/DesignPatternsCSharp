@@ -1,20 +1,20 @@
 ﻿namespace DesignPatterns.Tests.Creational.AbstractFactory.Windows
 {
+    using DesignPatterns.Creational.AbstractFactory.Windows;
+
     using NUnit.Framework;
 
-    using Windows = DesignPatterns.Creational.AbstractFactory.Windows;
-
     [TestFixture]
-    class GUIFactoryTest
+    public class GuiFactoryTest
     {
         [Test]
-        public void TestGUIFactoryCreatesComponents()
+        public void TestGuiFactoryCreatesComponents()
         {
-            var GUIFactory = new Windows.GUIFactory();
+            var guiFactory = new GuiFactory();
 
-            Assert.That(GUIFactory.CreateButton(), Is.InstanceOf<Windows.Button>());
-            Assert.That(GUIFactory.CreateContextMenu(), Is.InstanceOf<Windows.ContextMenu>());
-            Assert.That(GUIFactory.CreateWindow(), Is.InstanceOf<Windows.Window>());
+            Assert.That(guiFactory.CreateButton(), Is.InstanceOf<Button>());
+            Assert.That(guiFactory.CreateContextMenu(), Is.InstanceOf<ContextMenu>());
+            Assert.That(guiFactory.CreateWindow(), Is.InstanceOf<Window>());
         }
     }
 }

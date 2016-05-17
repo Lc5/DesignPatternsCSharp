@@ -4,8 +4,9 @@
 
     public class CarProxy : ICar
     {
-        private Driver driver;
-        private ICar car;
+        private readonly ICar car;
+
+        private readonly Driver driver;
 
         public CarProxy(Driver driver)
         {
@@ -15,12 +16,12 @@
 
         public void Drive()
         {
-            if (driver.Age < 18)
+            if (this.driver.Age < 18)
             {
-                throw new ArgumentException("The driver is too young to drive."); 
+                throw new ArgumentException("The driver is too young to drive.");
             }
 
-            car.Drive();
+            this.car.Drive();
         }
     }
 }

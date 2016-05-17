@@ -6,7 +6,7 @@
     {
         public ICar BuildCar()
         {
-            return new BMW();
+            return new Bmw();
         }
     }
 }

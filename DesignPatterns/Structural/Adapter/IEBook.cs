@@ -2,8 +2,8 @@
 {
     public interface IEBook
     {
-        void PressStart();
-
         void PressNext();
+
+        void PressStart();
     }
 }

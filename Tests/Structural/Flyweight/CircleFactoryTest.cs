@@ -5,7 +5,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    class CircleFactoryTest
+    public class CircleFactoryTest
     {
         [SetUp]
         public void SetUp()
@@ -14,14 +14,12 @@
         }
 
         [Test]
-        public void TestGetCircleReturnsSameCircleForSameRadiusAndColor()
+        public void TestGetCircleReturnsDifferentCirclesForDifferentColor()
         {
             CircleFactory.GetCircle(0, 0, 10, "Red");
-            CircleFactory.GetCircle(0, 0, 10, "Red");
-            CircleFactory.GetCircle(10, 10, 10, "Red");
-            CircleFactory.GetCircle(10, 10, 10, "Red");
+            CircleFactory.GetCircle(0, 0, 10, "Blue");
 
-            Assert.That(CircleFactory.Circles.Count, Is.EqualTo(1));
+            Assert.That(CircleFactory.Circles.Count, Is.EqualTo(2));
         }
 
         [Test]
@@ -34,12 +32,14 @@
         }
 
         [Test]
-        public void TestGetCircleReturnsDifferentCirclesForDifferentColor()
+        public void TestGetCircleReturnsSameCircleForSameRadiusAndColor()
         {
             CircleFactory.GetCircle(0, 0, 10, "Red");
-            CircleFactory.GetCircle(0, 0, 10, "Blue");
+            CircleFactory.GetCircle(0, 0, 10, "Red");
+            CircleFactory.GetCircle(10, 10, 10, "Red");
+            CircleFactory.GetCircle(10, 10, 10, "Red");
 
-            Assert.That(CircleFactory.Circles.Count, Is.EqualTo(2));
+            Assert.That(CircleFactory.Circles.Count, Is.EqualTo(1));
         }
     }
 }

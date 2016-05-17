@@ -12,7 +12,7 @@
         {
             var carProxy = new CarProxy(new Driver(21));
 
-            carProxy.Drive(); 
+            carProxy.Drive();
         }
 
         [Test]

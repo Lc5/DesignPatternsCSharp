@@ -3,13 +3,12 @@
     using System;
 
     using DesignPatterns.Creational.Common;
-
     using DesignPatterns.Creational.FactoryMethod;
 
     using NUnit.Framework;
-    
+
     [TestFixture]
-    class ICarFactoryTest
+    public class ICarFactoryTest
     {
         [TestCase(typeof(AudiFactory))]
         [TestCase(typeof(BMWFactory))]

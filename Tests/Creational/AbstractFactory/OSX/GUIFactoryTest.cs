@@ -1,20 +1,20 @@
 ﻿namespace DesignPatterns.Tests.Creational.AbstractFactory.OSX
 {
+    using DesignPatterns.Creational.AbstractFactory.OSX;
+
     using NUnit.Framework;
 
-    using OSX = DesignPatterns.Creational.AbstractFactory.OSX;
-
     [TestFixture]
-    class GUIFactoryTest
+    public class GuiFactoryTest
     {
         [Test]
-        public void TestGUIFactoryCreatesComponents()
+        public void TestGuiFactoryCreatesComponents()
         {
-            var GUIFactory = new OSX.GUIFactory();
+            var guiFactory = new GuiFactory();
 
-            Assert.That(GUIFactory.CreateButton(), Is.InstanceOf<OSX.Button>());
-            Assert.That(GUIFactory.CreateContextMenu(), Is.InstanceOf<OSX.ContextMenu>());
-            Assert.That(GUIFactory.CreateWindow(), Is.InstanceOf<OSX.Window>());
+            Assert.That(guiFactory.CreateButton(), Is.InstanceOf<Button>());
+            Assert.That(guiFactory.CreateContextMenu(), Is.InstanceOf<ContextMenu>());
+            Assert.That(guiFactory.CreateWindow(), Is.InstanceOf<Window>());
         }
     }
 }

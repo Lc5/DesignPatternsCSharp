@@ -5,7 +5,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    class CarBuilderDirectorTest
+    public class CarBuilderDirectorTest
     {
         [Test]
         public void TestBuildCar()
@@ -18,6 +18,6 @@
             Assert.That(car.Name, Is.EqualTo("Audi A8"));
             Assert.That(car.NumberOfDoors, Is.EqualTo(5));
             Assert.That(car.NumberOfSeats, Is.EqualTo(5));
-        }       
+        }
     }
 }

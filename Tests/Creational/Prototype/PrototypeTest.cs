@@ -5,9 +5,9 @@
     using DesignPatterns.Creational.Prototype;
 
     using NUnit.Framework;
-    
+
     [TestFixture]
-    class PrototypeTest
+    public class PrototypeTest
     {
         [TestCase(typeof(ConcretePrototype1))]
         [TestCase(typeof(ConcretePrototype2))]
