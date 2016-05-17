@@ -10,7 +10,10 @@
         [Test]
         public void TestWindowDecorator()
         {
-            var decoratedWindow = new VerticalScrollBarDecorator(new HorizontalScrollBarDecorator(new SimpleWindow()));
+            var decoratedWindow = 
+                new VerticalScrollBarDecorator(
+                    new HorizontalScrollBarDecorator(
+                        new SimpleWindow()));
 
             Assert.That(
                 decoratedWindow.Description, 

@@ -20,9 +20,15 @@
 
             form.AddElement(embeddedForm);
 
-            var expectedOutput = "<form>\r\n" + "    <input type=\"text\" />\r\n" + "    Text element\r\n"
-                                 + "    <form>\r\n" + "        <input type=\"text\" />\r\n" + "        Text element\r\n"
-                                 + "    </form>\r\n" + "</form>\r\n";
+            var expectedOutput = 
+                "<form>\r\n" + 
+                "    <input type=\"text\" />\r\n" + 
+                "    Text element\r\n" + 
+                "    <form>\r\n" + 
+                "        <input type=\"text\" />\r\n" + 
+                "        Text element\r\n" + 
+                "    </form>\r\n" + 
+                "</form>\r\n";
 
             Assert.That(form.Render(), Is.EqualTo(expectedOutput));
         }

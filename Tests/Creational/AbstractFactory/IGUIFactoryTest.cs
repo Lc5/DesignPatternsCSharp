@@ -3,15 +3,18 @@
     using System;
 
     using DesignPatterns.Creational.AbstractFactory;
-    using DesignPatterns.Creational.AbstractFactory.OSX;
 
     using NUnit.Framework;
+
+    using OsxGuiFactory = DesignPatterns.Creational.AbstractFactory.OSX.GuiFactory;
+
+    using WindowsGuiFactory = DesignPatterns.Creational.AbstractFactory.Windows.GuiFactory;
 
     [TestFixture]
     public class IGUIFactoryTest
     {
-        [TestCase(typeof(GuiFactory))]
-        [TestCase(typeof(DesignPatterns.Creational.AbstractFactory.Windows.GuiFactory))]
+        [TestCase(typeof(OsxGuiFactory))]
+        [TestCase(typeof(WindowsGuiFactory))]
         public void TestGuiFactoryCreatesComponents(Type guiFactoryType)
         {
             var guiFactory = (IGuiFactory)Activator.CreateInstance(guiFactoryType);

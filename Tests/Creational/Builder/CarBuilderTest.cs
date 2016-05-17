@@ -12,13 +12,13 @@
         {
             var carBuilder = new CarBuilder();
 
-            var car =
-                carBuilder.SetColor("Black")
-                    .SetEngineCapacity(2000)
-                    .SetName("BMW 320")
-                    .SetNumberOfDoors(5)
-                    .SetNumberOfSeats(5)
-                    .BuildCar();
+            var car = carBuilder
+                .SetColor("Black")
+                .SetEngineCapacity(2000)
+                .SetName("BMW 320")
+                .SetNumberOfDoors(5)
+                .SetNumberOfSeats(5)
+                .BuildCar();
 
             Assert.That(car.Color, Is.EqualTo("Black"));
             Assert.That(car.EngineCapacity, Is.EqualTo(2000));
