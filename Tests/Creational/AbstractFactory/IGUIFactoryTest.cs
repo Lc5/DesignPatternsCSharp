@@ -11,7 +11,7 @@
     using WindowsGuiFactory = DesignPatterns.Creational.AbstractFactory.Windows.GuiFactory;
 
     [TestFixture]
-    public class IGUIFactoryTest
+    public class IGuiFactoryTest
     {
         [TestCase(typeof(OsxGuiFactory))]
         [TestCase(typeof(WindowsGuiFactory))]

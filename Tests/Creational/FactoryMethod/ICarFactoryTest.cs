@@ -11,7 +11,7 @@
     public class ICarFactoryTest
     {
         [TestCase(typeof(AudiFactory))]
-        [TestCase(typeof(BMWFactory))]
+        [TestCase(typeof(BmwFactory))]
         public void TestBuildCar(Type carFactoryType)
         {
             var carFactory = (ICarFactory)Activator.CreateInstance(carFactoryType);

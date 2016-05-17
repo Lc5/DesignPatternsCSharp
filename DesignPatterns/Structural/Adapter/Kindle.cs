@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Structural.Adapter
 {
-    public class Kindle : IEBook
+    public class Kindle : IEbook
     {
         public void PressNext()
         {

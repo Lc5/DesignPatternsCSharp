@@ -10,7 +10,7 @@
         {
             Audi, 
 
-            BMW
+            Bmw
         }
 
         public static ICar BuildCar(Cars carName)
@@ -19,7 +19,7 @@
             {
                 case Cars.Audi:
                     return new Audi();
-                case Cars.BMW:
+                case Cars.Bmw:
                     return new Bmw();
                 default:
                     throw new ArgumentException();

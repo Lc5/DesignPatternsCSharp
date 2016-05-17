@@ -1,10 +1,10 @@
 ﻿namespace DesignPatterns.Structural.Adapter
 {
-    public class EBookAdapter : IPaperBook
+    public class EbookAdapter : IPaperBook
     {
-        private readonly IEBook ebook;
+        private readonly IEbook ebook;
 
-        public EBookAdapter(IEBook ebook)
+        public EbookAdapter(IEbook ebook)
         {
             this.ebook = ebook;
         }

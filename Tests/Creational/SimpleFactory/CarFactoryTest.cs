@@ -11,7 +11,7 @@
     public class CarFactoryTest
     {
         [TestCase(CarFactory.Cars.Audi, typeof(Audi))]
-        [TestCase(CarFactory.Cars.BMW, typeof(Bmw))]
+        [TestCase(CarFactory.Cars.Bmw, typeof(Bmw))]
         public void TestSimpleFactoryBuildsCar(CarFactory.Cars carName, Type carType)
         {
             var car = CarFactory.BuildCar(carName);

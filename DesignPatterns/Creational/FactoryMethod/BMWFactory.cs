@@ -2,7 +2,7 @@
 {
     using DesignPatterns.Creational.Common;
 
-    public class BMWFactory : ICarFactory
+    public class BmwFactory : ICarFactory
     {
         public ICar BuildCar()
         {

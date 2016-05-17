@@ -51,12 +51,12 @@
     <Compile Include="Behavioral\ChainOfResponsibility\HandlerTest.cs" />
     <Compile Include="Behavioral\Command\SwitchTest.cs" />
     <Compile Include="Behavioral\Interpreter\TokenReaderTest.cs" />
-    <Compile Include="Creational\AbstractFactory\IGUIFactoryTest.cs" />
-    <Compile Include="Creational\AbstractFactory\OSX\GUIFactoryTest.cs" />
-    <Compile Include="Creational\AbstractFactory\Windows\GUIFactoryTest.cs" />
+    <Compile Include="Creational\AbstractFactory\IGuiFactoryTest.cs" />
+    <Compile Include="Creational\AbstractFactory\OSX\GuiFactoryTest.cs" />
+    <Compile Include="Creational\AbstractFactory\Windows\GuiFactoryTest.cs" />
     <Compile Include="Creational\Builder\CarBuilderDirectorTest.cs" />
     <Compile Include="Creational\Builder\CarBuilderTest.cs" />
-    <Compile Include="Creational\FactoryMethod\BMWFactoryTest.cs" />
+    <Compile Include="Creational\FactoryMethod\BmwFactoryTest.cs" />
     <Compile Include="Creational\FactoryMethod\AudiFactoryTest.cs" />
     <Compile Include="Creational\FactoryMethod\ICarFactoryTest.cs" />
     <Compile Include="Creational\ObjectPool\PoolTest.cs" />
@@ -65,7 +65,7 @@
     <Compile Include="Creational\Singleton\SingletonTest.cs" />
     <Compile Include="Creational\Singleton\ThreadSafeSingletonTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Structural\Adapter\EBookAdapterTest.cs" />
+    <Compile Include="Structural\Adapter\EbookAdapterTest.cs" />
     <Compile Include="Structural\Bridge\CircleTest.cs" />
     <Compile Include="Structural\Composite\FormTest.cs" />
     <Compile Include="Structural\Decorator\WindowDecoratorTest.cs" />

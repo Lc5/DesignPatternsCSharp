@@ -5,16 +5,16 @@
     using NUnit.Framework;
 
     [TestFixture]
-    public class EBookAdapterTest
+    public class EbookAdapterTest
     {
         private static readonly object[] TestCases =
         {
             new[] { new Book() },
-            new[] { new EBookAdapter(new Kindle()) }
+            new[] { new EbookAdapter(new Kindle()) }
         };
 
         [TestCaseSource(nameof(TestCases))]
-        public void TestEBookAdapter(IPaperBook book)
+        public void TestEbookAdapter(IPaperBook book)
         {
             book.Open();
 

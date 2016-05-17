@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Structural.Adapter
 {
-    public interface IEBook
+    public interface IEbook
     {
         void PressNext();
 
