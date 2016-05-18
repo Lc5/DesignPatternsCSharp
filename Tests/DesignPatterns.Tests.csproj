@@ -52,6 +52,7 @@
     <Compile Include="Behavioral\Command\SwitchTest.cs" />
     <Compile Include="Behavioral\Interpreter\TokenReaderTest.cs" />
     <Compile Include="Behavioral\Iterator\IteratorTest.cs" />
+    <Compile Include="Behavioral\Mediator\MediatorTest.cs" />
     <Compile Include="Creational\AbstractFactory\IGuiFactoryTest.cs" />
     <Compile Include="Creational\AbstractFactory\OSX\GuiFactoryTest.cs" />
     <Compile Include="Creational\AbstractFactory\Windows\GuiFactoryTest.cs" />
