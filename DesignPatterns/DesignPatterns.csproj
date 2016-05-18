@@ -63,6 +63,9 @@
     <Compile Include="Behavioral\Mediator\IColleague.cs" />
     <Compile Include="Behavioral\Mediator\IMediator.cs" />
     <Compile Include="Behavioral\Mediator\Mediator.cs" />
+    <Compile Include="Behavioral\Memento\CareTaker.cs" />
+    <Compile Include="Behavioral\Memento\Memento.cs" />
+    <Compile Include="Behavioral\Memento\Originator.cs" />
     <Compile Include="Creational\AbstractFactory\IWindow.cs" />
     <Compile Include="Creational\AbstractFactory\IContextMenu.cs" />
     <Compile Include="Creational\AbstractFactory\IButton.cs" />

@@ -5,7 +5,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    class MediatorTest
+    public class MediatorTest
     {
         [Test]
         public void TestMediator()
