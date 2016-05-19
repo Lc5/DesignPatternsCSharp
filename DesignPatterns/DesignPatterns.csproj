@@ -76,6 +76,11 @@
     <Compile Include="Behavioral\State\GreenLight.cs" />
     <Compile Include="Behavioral\State\ITrafficLightState.cs" />
     <Compile Include="Behavioral\State\TrafficLight.cs" />
+    <Compile Include="Behavioral\Strategy\ISortStrategy.cs" />
+    <Compile Include="Behavioral\Strategy\MergeSort.cs" />
+    <Compile Include="Behavioral\Strategy\ShellSort.cs" />
+    <Compile Include="Behavioral\Strategy\QuickSort.cs" />
+    <Compile Include="Behavioral\Strategy\SortedList.cs" />
     <Compile Include="Creational\AbstractFactory\IWindow.cs" />
     <Compile Include="Creational\AbstractFactory\IContextMenu.cs" />
     <Compile Include="Creational\AbstractFactory\IButton.cs" />

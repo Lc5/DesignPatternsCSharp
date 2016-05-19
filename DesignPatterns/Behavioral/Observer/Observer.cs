@@ -4,12 +4,12 @@
 
     public class Observer : IObserver
     {
-        public string Name { get; private set; }
-
         public Observer(string name)
         {
             this.Name = name;
         }
+
+        public string Name { get; }
 
         public void Update()
         {
