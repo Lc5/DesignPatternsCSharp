@@ -5,7 +5,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    class ObserverTest
+    public class ObserverTest
     {
         [Test]
         public void TestObserver()

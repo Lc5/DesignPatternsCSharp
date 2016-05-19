@@ -70,6 +70,12 @@
     <Compile Include="Behavioral\Observer\ISubject.cs" />
     <Compile Include="Behavioral\Observer\Observer.cs" />
     <Compile Include="Behavioral\Observer\Subject.cs" />
+    <Compile Include="Behavioral\State\RedYellowLight.cs" />
+    <Compile Include="Behavioral\State\YellowLight.cs" />
+    <Compile Include="Behavioral\State\RedLight.cs" />
+    <Compile Include="Behavioral\State\GreenLight.cs" />
+    <Compile Include="Behavioral\State\ITrafficLightState.cs" />
+    <Compile Include="Behavioral\State\TrafficLight.cs" />
     <Compile Include="Creational\AbstractFactory\IWindow.cs" />
     <Compile Include="Creational\AbstractFactory\IContextMenu.cs" />
     <Compile Include="Creational\AbstractFactory\IButton.cs" />

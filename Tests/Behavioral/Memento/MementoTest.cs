@@ -5,7 +5,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    class MementoTest
+    public class MementoTest
     {
         [Test]
         public void TestMemento()
