@@ -81,6 +81,9 @@
     <Compile Include="Behavioral\Strategy\ShellSort.cs" />
     <Compile Include="Behavioral\Strategy\QuickSort.cs" />
     <Compile Include="Behavioral\Strategy\SortedList.cs" />
+    <Compile Include="Behavioral\TemplateMethod\DataExporter.cs" />
+    <Compile Include="Behavioral\TemplateMethod\PdfExporter.cs" />
+    <Compile Include="Behavioral\TemplateMethod\ExcelExporter.cs" />
     <Compile Include="Creational\AbstractFactory\IWindow.cs" />
     <Compile Include="Creational\AbstractFactory\IContextMenu.cs" />
     <Compile Include="Creational\AbstractFactory\IButton.cs" />
