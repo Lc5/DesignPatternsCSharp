@@ -58,6 +58,7 @@
     <Compile Include="Behavioral\State\StateTest.cs" />
     <Compile Include="Behavioral\Strategy\StrategyTest.cs" />
     <Compile Include="Behavioral\TemplateMethod\TemplateMethodTest.cs" />
+    <Compile Include="Behavioral\Visitor\VisitorTest.cs" />
     <Compile Include="Creational\AbstractFactory\IGuiFactoryTest.cs" />
     <Compile Include="Creational\AbstractFactory\OSX\GuiFactoryTest.cs" />
     <Compile Include="Creational\AbstractFactory\Windows\GuiFactoryTest.cs" />

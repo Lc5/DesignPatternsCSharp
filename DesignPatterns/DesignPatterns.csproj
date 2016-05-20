@@ -84,6 +84,14 @@
     <Compile Include="Behavioral\TemplateMethod\DataExporter.cs" />
     <Compile Include="Behavioral\TemplateMethod\PdfExporter.cs" />
     <Compile Include="Behavioral\TemplateMethod\ExcelExporter.cs" />
+    <Compile Include="Behavioral\Visitor\Document.cs" />
+    <Compile Include="Behavioral\Visitor\DocumentPart.cs" />
+    <Compile Include="Behavioral\Visitor\HtmlVisitor.cs" />
+    <Compile Include="Behavioral\Visitor\IVisitor.cs" />
+    <Compile Include="Behavioral\Visitor\BoldText.cs" />
+    <Compile Include="Behavioral\Visitor\Hyperlink.cs" />
+    <Compile Include="Behavioral\Visitor\LatexVisitor.cs" />
+    <Compile Include="Behavioral\Visitor\PlainText.cs" />
     <Compile Include="Creational\AbstractFactory\IWindow.cs" />
     <Compile Include="Creational\AbstractFactory\IContextMenu.cs" />
     <Compile Include="Creational\AbstractFactory\IButton.cs" />
