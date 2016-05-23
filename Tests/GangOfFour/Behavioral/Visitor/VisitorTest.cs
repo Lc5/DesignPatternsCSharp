@@ -1,7 +1,5 @@
 ﻿namespace DesignPatterns.Tests.GangOfFour.Behavioral.Visitor
 {
-    using System;
-
     using DesignPatterns.GangOfFour.Behavioral.Visitor;
 
     using NUnit.Framework;
@@ -20,12 +18,16 @@
             var htmlVisitor = new HtmlVisitor();
             document.Accept(htmlVisitor);
 
-            Console.WriteLine(htmlVisitor.Output);
+            Assert.That(
+                htmlVisitor.Output,
+                Is.EqualTo("<b>This is bold text.</b>This is plain text.<a href=\"http://www.example.com\">This is hyperlink.</a>"));
 
             var latexVisitor = new LatexVisitor();
             document.Accept(latexVisitor);
 
-            Console.WriteLine(latexVisitor.Output);
+            Assert.That(
+                latexVisitor.Output,
+                Is.EqualTo("\\textbf{This is bold text.}This is plain text.\\href{http://www.example.com}{This is hyperlink.}"));
         }
     }
 }

@@ -8,7 +8,7 @@
     public class SingletonTest
     {
         [Test]
-        public void TestSingleton()
+        public void TestOnlyOneInstanceIsCreated()
         {
             var instance1 = Singleton.Instance;
             var instance2 = Singleton.Instance;
