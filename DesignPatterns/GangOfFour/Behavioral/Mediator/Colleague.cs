@@ -4,7 +4,7 @@
 
     public class Colleague<T> : IColleague<T>
     {
-        private string name;
+        private readonly string name;
 
         public Colleague(string name)
         {

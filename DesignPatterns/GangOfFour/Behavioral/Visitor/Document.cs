@@ -4,7 +4,7 @@
 
     public class Document
     {
-        private List<DocumentPart> parts = new List<DocumentPart>();
+        private readonly List<DocumentPart> parts = new List<DocumentPart>();
 
         public void Accept(IVisitor visitor)
         {

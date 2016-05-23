@@ -4,7 +4,7 @@
 
     public class CareTaker<T>
     {
-        private List<Memento<T>> savedStates = new List<Memento<T>>();
+        private readonly List<Memento<T>> savedStates = new List<Memento<T>>();
 
         public void AddMemento(Memento<T> memento)
         {

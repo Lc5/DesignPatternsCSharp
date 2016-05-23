@@ -4,7 +4,7 @@
 
     public class Subject : ISubject
     {
-        private List<IObserver> observers = new List<IObserver>();
+        private readonly List<IObserver> observers = new List<IObserver>();
 
         public void Notify()
         {

@@ -2,7 +2,7 @@
 {
     public class Iterator : IIterator
     {
-        private Collection collection;
+        private readonly Collection collection;
 
         private int current;
 
