@@ -5,7 +5,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    public class PoolTest
+    public class ObjectPoolTest
     {      
         [Test]
         public void TestPoolReturnsNewObjectWhenNotReleased()

@@ -5,7 +5,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    public class EbookAdapterTest
+    public class AdapterTest
     {
         private static readonly object[] TestCases =
         {

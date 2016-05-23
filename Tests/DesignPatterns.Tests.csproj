@@ -48,9 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GangOfFour\Behavioral\ChainOfResponsibility\HandlerTest.cs" />
-    <Compile Include="GangOfFour\Behavioral\Command\SwitchTest.cs" />
-    <Compile Include="GangOfFour\Behavioral\Interpreter\TokenReaderTest.cs" />
+    <Compile Include="GangOfFour\Behavioral\ChainOfResponsibility\ChainOfResponsibilityTest.cs" />
+    <Compile Include="GangOfFour\Behavioral\Command\CommandTest.cs" />
+    <Compile Include="GangOfFour\Behavioral\Interpreter\InterpreterTest.cs" />
     <Compile Include="GangOfFour\Behavioral\Iterator\IteratorTest.cs" />
     <Compile Include="GangOfFour\Behavioral\Mediator\MediatorTest.cs" />
     <Compile Include="GangOfFour\Behavioral\Memento\MementoTest.cs" />
@@ -59,27 +59,22 @@
     <Compile Include="GangOfFour\Behavioral\Strategy\StrategyTest.cs" />
     <Compile Include="GangOfFour\Behavioral\TemplateMethod\TemplateMethodTest.cs" />
     <Compile Include="GangOfFour\Behavioral\Visitor\VisitorTest.cs" />
-    <Compile Include="GangOfFour\Creational\AbstractFactory\IGuiFactoryTest.cs" />
-    <Compile Include="GangOfFour\Creational\AbstractFactory\OSX\GuiFactoryTest.cs" />
-    <Compile Include="GangOfFour\Creational\AbstractFactory\Windows\GuiFactoryTest.cs" />
-    <Compile Include="GangOfFour\Creational\Builder\CarBuilderDirectorTest.cs" />
-    <Compile Include="GangOfFour\Creational\Builder\CarBuilderTest.cs" />
-    <Compile Include="GangOfFour\Creational\FactoryMethod\BmwFactoryTest.cs" />
-    <Compile Include="GangOfFour\Creational\FactoryMethod\AudiFactoryTest.cs" />
-    <Compile Include="GangOfFour\Creational\FactoryMethod\ICarFactoryTest.cs" />
-    <Compile Include="Other\Creational\ObjectPool\PoolTest.cs" />
+    <Compile Include="GangOfFour\Creational\AbstractFactory\AbstractFactoryTest.cs" />
+    <Compile Include="GangOfFour\Creational\Builder\BuilderTest.cs" />
+    <Compile Include="GangOfFour\Creational\FactoryMethod\FactoryMethodTest.cs" />
+    <Compile Include="Other\Creational\ObjectPool\ObjectPoolTest.cs" />
     <Compile Include="GangOfFour\Creational\Prototype\PrototypeTest.cs" />
-    <Compile Include="Other\Creational\SimpleFactory\CarFactoryTest.cs" />
+    <Compile Include="Other\Creational\SimpleFactory\SimpleFactoryTest.cs" />
     <Compile Include="GangOfFour\Creational\Singleton\SingletonTest.cs" />
     <Compile Include="GangOfFour\Creational\Singleton\ThreadSafeSingletonTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="GangOfFour\Structural\Adapter\EbookAdapterTest.cs" />
-    <Compile Include="GangOfFour\Structural\Bridge\CircleTest.cs" />
-    <Compile Include="GangOfFour\Structural\Composite\FormTest.cs" />
-    <Compile Include="GangOfFour\Structural\Decorator\WindowDecoratorTest.cs" />
-    <Compile Include="GangOfFour\Structural\Facade\ComputerTest.cs" />
-    <Compile Include="GangOfFour\Structural\Flyweight\CircleFactoryTest.cs" />
-    <Compile Include="GangOfFour\Structural\Proxy\CarProxyTest.cs" />
+    <Compile Include="GangOfFour\Structural\Adapter\AdapterTest.cs" />
+    <Compile Include="GangOfFour\Structural\Bridge\BridgeTest.cs" />
+    <Compile Include="GangOfFour\Structural\Composite\CompositeTest.cs" />
+    <Compile Include="GangOfFour\Structural\Decorator\DecoratorTest.cs" />
+    <Compile Include="GangOfFour\Structural\Facade\FacadeTest.cs" />
+    <Compile Include="GangOfFour\Structural\Flyweight\FlyweightTest.cs" />
+    <Compile Include="GangOfFour\Structural\Proxy\ProxyTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

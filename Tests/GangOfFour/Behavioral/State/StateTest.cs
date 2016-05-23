@@ -10,7 +10,7 @@
         [Test]
         public void TestState()
         {
-            var trafficLight = new TrafficLight  { State = new RedLight() };
+            var trafficLight = new TrafficLight { State = new RedLight() };
             trafficLight.ReportState();
 
             for (var i = 0; i < 8; i++)

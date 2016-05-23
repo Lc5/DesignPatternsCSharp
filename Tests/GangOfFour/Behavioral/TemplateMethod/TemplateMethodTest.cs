@@ -10,13 +10,11 @@
         [Test]
         public void TestTemplateMethod()
         {
-            DataExporter exporter;
+            var excelExporter = new ExcelExporter();
+            excelExporter.ExportFormattedData();
 
-            exporter = new ExcelExporter();
-            exporter.ExportFormattedData();
-
-            exporter = new PdfExporter();
-            exporter.ExportFormattedData();
+            var pdfExporter = new PdfExporter();
+            pdfExporter.ExportFormattedData();
         }
     }
 }

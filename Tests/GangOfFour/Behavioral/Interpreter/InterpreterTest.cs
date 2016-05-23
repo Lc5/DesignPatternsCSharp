@@ -7,7 +7,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    public class TokenReaderTest
+    public class InterpreterTest
     {
         [TestCase("+ 10 2", 12)]
         [TestCase("+ - 10 2 3", 11)]

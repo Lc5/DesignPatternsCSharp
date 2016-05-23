@@ -5,7 +5,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    public class CircleFactoryTest
+    public class FlyweightTest
     {
         [SetUp]
         public void SetUp()

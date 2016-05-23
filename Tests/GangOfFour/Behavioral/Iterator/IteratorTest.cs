@@ -12,11 +12,7 @@
         {
             var numbers = new[] { 11, 22, 33, 44 };
 
-            var collection = new Collection();
-            collection[0] = numbers[0];
-            collection[1] = numbers[1];
-            collection[2] = numbers[2];
-            collection[3] = numbers[3];
+            var collection = new Collection { [0] = numbers[0], [1] = numbers[1], [2] = numbers[2], [3] = numbers[3] };
 
             var iterator = collection.CreateIterator();
             var i = 0;

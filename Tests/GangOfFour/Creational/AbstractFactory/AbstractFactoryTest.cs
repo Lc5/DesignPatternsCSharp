@@ -1,7 +1,5 @@
 ﻿namespace DesignPatterns.Tests.GangOfFour.Creational.AbstractFactory
 {
-    using System;
-
     using DesignPatterns.GangOfFour.Creational.AbstractFactory;
 
     using NUnit.Framework;
@@ -11,14 +9,17 @@
     using WindowsGuiFactory = DesignPatterns.GangOfFour.Creational.AbstractFactory.Windows.GuiFactory;
 
     [TestFixture]
-    public class IGuiFactoryTest
+    public class AbstractFactoryTest
     {
-        [TestCase(typeof(OsxGuiFactory))]
-        [TestCase(typeof(WindowsGuiFactory))]
-        public void TestGuiFactoryCreatesComponents(Type guiFactoryType)
+        private static readonly object[] TestCases =
         {
-            var guiFactory = (IGuiFactory)Activator.CreateInstance(guiFactoryType);
+            new[] { new OsxGuiFactory() },
+            new[] { new WindowsGuiFactory() }
+        };
 
+        [TestCaseSource(nameof(TestCases))]
+        public void TestGuiFactoryCreatesComponents(IGuiFactory guiFactory)
+        {
             Assert.That(guiFactory.CreateButton(), Is.InstanceOf<IButton>());
             Assert.That(guiFactory.CreateContextMenu(), Is.InstanceOf<IContextMenu>());
             Assert.That(guiFactory.CreateWindow(), Is.InstanceOf<IWindow>());

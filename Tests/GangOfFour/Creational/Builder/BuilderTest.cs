@@ -5,7 +5,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    public class CarBuilderDirectorTest
+    public class BuilderTest
     {
         [Test]
         public void TestBuildCar()

@@ -7,7 +7,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    public class ComputerTest
+    public class FacadeTest
     {
         [Test]
         public void TestTurnOff()

@@ -1,7 +1,5 @@
 ﻿namespace DesignPatterns.Tests.GangOfFour.Creational.Prototype
 {
-    using System;
-
     using DesignPatterns.GangOfFour.Creational.Prototype;
 
     using NUnit.Framework;
@@ -9,15 +7,19 @@
     [TestFixture]
     public class PrototypeTest
     {
-        [TestCase(typeof(ConcretePrototype1))]
-        [TestCase(typeof(ConcretePrototype2))]
-        public void TestPrototype(Type prototype)
+        private static readonly object[] TestCases =
         {
-            var concretePrototype = (Prototype)Activator.CreateInstance(prototype, 123);
-            var newInstance = concretePrototype.Clone();
+            new[] { new ConcretePrototype1(123) },
+            new[] { new ConcretePrototype2(456) }
+        };
 
-            Assert.That(newInstance.Id, Is.EqualTo(concretePrototype.Id));
-            Assert.That(newInstance, Is.Not.EqualTo(concretePrototype));
+        [TestCaseSource(nameof(TestCases))]
+        public void TestPrototype(Prototype prototype)
+        {
+            var newInstance = prototype.Clone();
+
+            Assert.That(newInstance.Id, Is.EqualTo(prototype.Id));
+            Assert.That(newInstance, Is.Not.EqualTo(prototype));
         }
     }
 }

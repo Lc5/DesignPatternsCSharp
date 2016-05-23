@@ -1,20 +1,21 @@
 ﻿namespace DesignPatterns.Tests.GangOfFour.Structural.Bridge
 {
-    using System;
-
     using DesignPatterns.GangOfFour.Structural.Bridge;
 
     using NUnit.Framework;
 
     [TestFixture]
-    public class CircleTest
+    public class BridgeTest
     {
-        [TestCase(typeof(DrawingApi1))]
-        [TestCase(typeof(DrawingApi2))]
-        public void TestDraw(Type drawingApiType)
+        private static readonly object[] TestCases =
         {
-            var drawingApi = (IDrawingApi)Activator.CreateInstance(drawingApiType);
+            new[] { new DrawingApi1() },
+            new[] { new DrawingApi2() }
+        };
 
+        [TestCaseSource(nameof(TestCases))]
+        public void TestDraw(IDrawingApi drawingApi)
+        {
             var circle = new Circle(0, 0, 10, drawingApi);
 
             circle.Draw();

@@ -5,7 +5,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    public class SwitchTest
+    public class CommandTest
     {
         [Test]
         public void TestSwitch()

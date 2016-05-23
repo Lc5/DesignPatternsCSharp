@@ -5,7 +5,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    public class WindowDecoratorTest
+    public class DecoratorTest
     {
         [Test]
         public void TestWindowDecorator()

@@ -7,7 +7,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    public class CarFactoryTest
+    public class SimpleFactoryTest
     {
         [TestCase(CarFactory.Cars.Audi, typeof(Audi))]
         [TestCase(CarFactory.Cars.Bmw, typeof(Bmw))]

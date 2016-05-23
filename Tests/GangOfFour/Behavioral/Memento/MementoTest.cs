@@ -14,15 +14,15 @@
             var originator = new Originator<string>();
 
             originator.State = "State 1";
-            originator.State = "State 2";      
             careTaker.AddMemento(originator.SaveToMemento());
-            originator.State = "State 3";
-            careTaker.AddMemento(originator.SaveToMemento());
-            originator.State = "State 4";
 
+            originator.State = "State 2";
+            careTaker.AddMemento(originator.SaveToMemento());
+
+            originator.State = "State 3";
             originator.RestoreFromMemento(careTaker.GetMemento(1));
 
-            Assert.That(originator.State, Is.EqualTo("State 3"));
+            Assert.That(originator.State, Is.EqualTo("State 2"));
         }
     }
 }

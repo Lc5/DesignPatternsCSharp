@@ -5,7 +5,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    public class CarProxyTest
+    public class ProxyTest
     {
         [Test]
         public void TestDriveWithAdultDriver()

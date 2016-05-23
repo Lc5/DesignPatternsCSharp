@@ -5,7 +5,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    public class HandlerTest
+    public class ChainOfResponsibilityTest
     {
         [TestCase(1)]
         [TestCase(12)]
