@@ -7,8 +7,8 @@
             this.Text = text;
         }
 
-        public abstract void Accept(IVisitor visitor);
-
         public string Text { get; private set; }
+
+        public abstract void Accept(IVisitor visitor);
     }
 }

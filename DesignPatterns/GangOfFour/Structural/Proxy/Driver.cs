@@ -7,6 +7,6 @@
             this.Age = age;
         }
 
-        public int Age { get; set; }
+        public int Age { get; private set; }
     }
 }

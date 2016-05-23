@@ -4,12 +4,12 @@
 
     public static class CircleFactory
     {
-        public static Dictionary<int, Circle> Circles = new Dictionary<int, Circle>();
+        public static Dictionary<int, Circle> Circles { get; } = new Dictionary<int, Circle>();
 
         public static Circle GetCircle(int x, int y, int radius, string color)
         {
-            var circleName = nameof(Circle);
-            var hash = new { radius, color, circleName }.GetHashCode();
+            const string CircleName = nameof(Circle);
+            var hash = new { radius, color, circleName = CircleName }.GetHashCode();
 
             Circle circle;
 

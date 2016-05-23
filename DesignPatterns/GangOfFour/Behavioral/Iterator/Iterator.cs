@@ -4,7 +4,7 @@
     {
         private Collection collection;
 
-        private int current = 0;
+        private int current;
 
         public Iterator(Collection collection)
         {
