@@ -16,7 +16,7 @@
 
         public void Drive()
         {
-            Console.WriteLine("Driving common car!");
+            Console.WriteLine("Driving common car.");
         }
     }
 }

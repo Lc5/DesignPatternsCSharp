@@ -1,10 +1,12 @@
 ﻿namespace DesignPatterns.GangOfFour.Creational.AbstractFactory.OSX
 {
+    using System;
+
     public class Window : IWindow
     {
         public void Render()
         {
-            // Render OSX window
+            Console.WriteLine("Rendering OSX window.");
         }
     }
 }

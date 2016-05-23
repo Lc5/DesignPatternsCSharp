@@ -1,10 +1,12 @@
 ﻿namespace DesignPatterns.GangOfFour.Creational.AbstractFactory.Windows
 {
+    using System;
+
     public class Window : IWindow
     {
         public void Render()
         {
-            // Render Windows window
+            Console.WriteLine("Rendering Windows window.");
         }
     }
 }

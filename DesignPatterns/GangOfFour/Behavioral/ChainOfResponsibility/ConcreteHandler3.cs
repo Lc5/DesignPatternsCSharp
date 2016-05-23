@@ -8,7 +8,7 @@
         {
             if (request >= 20 && request < 30)
             {
-                Console.WriteLine("{0} handled request: {1}", this.GetType().Name, request);
+                Console.WriteLine("{0} handled request: {1}.", this.GetType().Name, request);
             }
             else if (this.Successor != null)
             {

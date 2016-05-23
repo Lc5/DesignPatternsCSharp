@@ -1,10 +1,12 @@
 ﻿namespace DesignPatterns.GangOfFour.Creational.AbstractFactory.Windows
 {
+    using System;
+
     public class ContextMenu : IContextMenu
     {
         public void Render()
         {
-            // Render Windows context menu
+            Console.WriteLine("Rendering Windows context menu.");
         }
     }
 }

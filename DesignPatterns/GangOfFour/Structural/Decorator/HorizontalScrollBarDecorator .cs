@@ -1,5 +1,7 @@
 ﻿namespace DesignPatterns.GangOfFour.Structural.Decorator
 {
+    using System;
+
     public class HorizontalScrollBarDecorator : WindowDecorator
     {
         public HorizontalScrollBarDecorator(IWindow window)
@@ -23,7 +25,7 @@
 
         private void DrawHorizontalScrollBar()
         {
-            // Draw horizontal scroll bar
+            Console.WriteLine("Drawing horizontal scroll bar.");
         }
     }
 }

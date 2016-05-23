@@ -1,10 +1,12 @@
 ﻿namespace DesignPatterns.GangOfFour.Creational.AbstractFactory.OSX
 {
+    using System;
+
     public class Button : IButton
     {
         public void Render()
         {
-            // Render OSX button
+            Console.WriteLine("Rendering OSX button.");
         }
     }
 }

@@ -1,10 +1,12 @@
 ﻿namespace DesignPatterns.GangOfFour.Behavioral.TemplateMethod
 {
+    using System;
+
     public class ExcelExporter : DataExporter
     {
         public override void ExportData()
         {
-            // Export data to an Excel file
+            Console.WriteLine("Exporting data to Excel file.");
         }
     }
 }

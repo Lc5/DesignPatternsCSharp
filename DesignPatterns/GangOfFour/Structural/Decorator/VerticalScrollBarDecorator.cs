@@ -1,5 +1,7 @@
 ﻿namespace DesignPatterns.GangOfFour.Structural.Decorator
 {
+    using System;
+
     public class VerticalScrollBarDecorator : WindowDecorator
     {
         public VerticalScrollBarDecorator(IWindow window)
@@ -23,7 +25,7 @@
 
         private void DrawVerticalScrollBar()
         {
-            // Draw vertical scroll bar
+            Console.WriteLine("Drawing vertical scroll bar.");
         }
     }
 }

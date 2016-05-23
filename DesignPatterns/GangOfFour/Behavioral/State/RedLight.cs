@@ -11,7 +11,7 @@
 
         public void ReportState()
         {
-            Console.WriteLine("Red light");
+            Console.WriteLine("Red light.");
         }
     }
 }

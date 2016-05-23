@@ -1,15 +1,17 @@
 ﻿namespace DesignPatterns.GangOfFour.Structural.Adapter
 {
+    using System;
+
     public class Book : IPaperBook
     {
         public void Open()
         {
-            // Open book
+            Console.WriteLine("Opening the book.");          
         }
 
         public void TurnPage()
         {
-            // Turn the page
+            Console.WriteLine("Turning the page.");
         }
     }
 }

@@ -1,10 +1,12 @@
 ﻿namespace DesignPatterns.GangOfFour.Behavioral.TemplateMethod
 {
+    using System;
+
     public class PdfExporter : DataExporter
     {
         public override void ExportData()
         {
-            // Export data to a Pdf file
+            Console.WriteLine("Exporting data to PDF file.");
         }
     }
 }

@@ -1,5 +1,7 @@
 ﻿namespace DesignPatterns.GangOfFour.Structural.Flyweight
 {
+    using System;
+
     public class Circle : IShape
     {
         private string color;
@@ -18,7 +20,7 @@
 
         public void Draw()
         {
-            // Draw circle  
+            Console.WriteLine("Drawing circle.");
         }
     }
 }

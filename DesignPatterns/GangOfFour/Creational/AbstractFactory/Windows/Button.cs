@@ -1,10 +1,12 @@
 ﻿namespace DesignPatterns.GangOfFour.Creational.AbstractFactory.Windows
 {
+    using System;
+
     public class Button : IButton
     {
         public void Render()
         {
-            // Render Windows button
+            Console.WriteLine("Rendering Windows button.");
         }
     }
 }

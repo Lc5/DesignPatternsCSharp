@@ -1,5 +1,7 @@
 ﻿namespace DesignPatterns.GangOfFour.Behavioral.TemplateMethod
 {
+    using System;
+
     public abstract class DataExporter
     {
         public abstract void ExportData();
@@ -13,12 +15,12 @@
 
         public void FormatData()
         {
-            // Format data
+            Console.WriteLine("Formatting data.");
         }
 
         public void ReadData()
         {
-            // Read data from external source
+            Console.WriteLine("Reading data from external source.");
         }
     }
 }

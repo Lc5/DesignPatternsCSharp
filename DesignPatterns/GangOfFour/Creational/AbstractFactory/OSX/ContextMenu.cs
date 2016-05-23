@@ -1,10 +1,12 @@
 ﻿namespace DesignPatterns.GangOfFour.Creational.AbstractFactory.OSX
 {
+    using System;
+
     public class ContextMenu : IContextMenu
     {
         public void Render()
         {
-            // Render OSX context menu
+            Console.WriteLine("Rendering OSX context menu.");
         }
     }
 }
