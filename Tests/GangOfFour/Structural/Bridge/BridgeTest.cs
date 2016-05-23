@@ -14,7 +14,7 @@
         };
 
         [TestCaseSource(nameof(TestCases))]
-        public void TestDraw(IDrawingApi drawingApi)
+        public void TestBridge(IDrawingApi drawingApi)
         {
             var circle = new Circle(0, 0, 10, drawingApi);
 

@@ -10,7 +10,7 @@
         [TestCase(1)]
         [TestCase(12)]
         [TestCase(23)]
-        public void TestHandleRequest(int request)
+        public void TestChainOfResponsibility(int request)
         {
             var handler1 = new ConcreteHandler1();
             var handler2 = new ConcreteHandler2();

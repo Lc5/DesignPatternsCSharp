@@ -12,7 +12,7 @@
         [TestCase("+ 10 2", 12)]
         [TestCase("+ - 10 2 3", 11)]
         [TestCase("- + 10 5 - 8 2", 9)]
-        public void TestReadToken(string tokenString, int expectedResult)
+        public void TestInterpreter(string tokenString, int expectedResult)
         {
             var tokenList = new List<string>(tokenString.Split(' '));
             var expression = new TokenReader().ReadToken(tokenList);

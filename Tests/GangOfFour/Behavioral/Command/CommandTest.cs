@@ -8,7 +8,7 @@
     public class CommandTest
     {
         [Test]
-        public void TestSwitch()
+        public void TestCommand()
         {
             var lamp = new Light();
             var closeCommand = new CloseSwitchCommand(lamp);

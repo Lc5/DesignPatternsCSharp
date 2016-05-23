@@ -14,7 +14,7 @@
         };
 
         [TestCaseSource(nameof(TestCases))]
-        public void TestEbookAdapter(IPaperBook book)
+        public void TestAdapter(IPaperBook book)
         {
             book.Open();
 

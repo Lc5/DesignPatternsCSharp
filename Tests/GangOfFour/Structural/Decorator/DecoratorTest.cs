@@ -8,7 +8,7 @@
     public class DecoratorTest
     {
         [Test]
-        public void TestWindowDecorator()
+        public void TestDecorator()
         {
             var decoratedWindow = 
                 new VerticalScrollBarDecorator(

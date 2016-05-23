@@ -14,7 +14,7 @@
         };
 
         [TestCaseSource(nameof(TestCases))]
-        public void TestBuildCar(ICarFactory carFactory)
+        public void TestFactoryMethod(ICarFactory carFactory)
         {
             Assert.That(carFactory.BuildCar(), Is.InstanceOf<ICar>());
         }

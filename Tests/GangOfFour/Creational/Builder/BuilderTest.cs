@@ -8,7 +8,7 @@
     public class BuilderTest
     {
         [Test]
-        public void TestBuildCar()
+        public void TestBuilder()
         {
             var carBuilderDirector = new CarBuilderDirector(new CarBuilder());
             var car = carBuilderDirector.BuildCar();

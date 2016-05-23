@@ -8,7 +8,7 @@
     public class CompositeTest
     {
         [Test]
-        public void TestForm()
+        public void TestComposite()
         {
             var form = new Form();
             form.AddElement(new InputElement());

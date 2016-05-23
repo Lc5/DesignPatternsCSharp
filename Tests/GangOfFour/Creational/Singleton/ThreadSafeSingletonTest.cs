@@ -8,7 +8,7 @@
     public class ThreadSafeSingletonTest
     {
         [Test]
-        public void TestOnlyOneInstanceIsCreated()
+        public void TestSingleton()
         {
             var instance1 = ThreadSafeSingleton.Instance;
             var instance2 = ThreadSafeSingleton.Instance;
