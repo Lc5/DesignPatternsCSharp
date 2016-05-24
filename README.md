@@ -11,7 +11,7 @@ The project can be compiled and run using Visual Studio 2015.
 
 ## Gang of Four patterns
 
-### [Behavioral](Behavioral)
+### Behavioral
 
 * [ChainOfResponsibility](DesignPatterns/GangOfFour/Behavioral/ChainOfResponsibility)
 * [Command](DesignPatterns/GangOfFour/Behavioral/Command)
@@ -24,7 +24,7 @@ The project can be compiled and run using Visual Studio 2015.
 * [TemplateMethod](DesignPatterns/GangOfFour/Behavioral/TemplateMethod)
 * [Visitor](DesignPatterns/GangOfFour/Behavioral/Visitor)
 
-### [Creational](Creational)
+### Creational
 
 * [AbstractFactory](DesignPatterns/GangOfFour/Creational/AbstractFactory)
 * [Builder](DesignPatterns/GangOfFour/Creational/Builder)
@@ -32,7 +32,7 @@ The project can be compiled and run using Visual Studio 2015.
 * [Prototype](DesignPatterns/GangOfFour/Creational/Prototype)
 * [Singleton](DesignPatterns/GangOfFour/Creational/Singleton) 
 
-### [Structural](Structural)
+### Structural
 
 * [Adapter](DesignPatterns/GangOfFour/Structural/Adapter)
 * [Bridge](DesignPatterns/GangOfFour/Structural/Bridge)
@@ -43,7 +43,7 @@ The project can be compiled and run using Visual Studio 2015.
 
 ## Other patterns
 
-### [Creational](Creational)
+### Creational
 
 * [ObjectPool](DesignPatterns/Other/Creational/ObjectPool)
 * [SimpleFactory](DesignPatterns/Other/Creational/SimpleFactory)
