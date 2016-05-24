@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.Other.Creational.ObjectPool
+﻿namespace DesignPatterns.Other.Creational.ObjectPool.Tests
 {
     using DesignPatterns.Other.Creational.ObjectPool;
 

@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Behavioral.Iterator
+﻿namespace DesignPatterns.GangOfFour.Behavioral.Iterator.Tests
 {
     using DesignPatterns.GangOfFour.Behavioral.Iterator;
 

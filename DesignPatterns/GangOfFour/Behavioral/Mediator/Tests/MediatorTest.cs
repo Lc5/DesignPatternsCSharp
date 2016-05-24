@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Behavioral.Mediator
+﻿namespace DesignPatterns.GangOfFour.Behavioral.Mediator.Tests
 {
     using DesignPatterns.GangOfFour.Behavioral.Mediator;
 

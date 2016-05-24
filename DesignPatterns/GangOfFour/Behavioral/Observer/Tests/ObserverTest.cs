@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Behavioral.Observer
+﻿namespace DesignPatterns.GangOfFour.Behavioral.Observer.Tests
 {
     using DesignPatterns.GangOfFour.Behavioral.Observer;
 

@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Behavioral.TemplateMethod
+﻿namespace DesignPatterns.GangOfFour.Behavioral.TemplateMethod.Tests
 {
     using DesignPatterns.GangOfFour.Behavioral.TemplateMethod;
 

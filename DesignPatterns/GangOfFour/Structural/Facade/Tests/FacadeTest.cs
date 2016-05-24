@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Structural.Facade
+﻿namespace DesignPatterns.GangOfFour.Structural.Facade.Tests
 {
     using DesignPatterns.GangOfFour.Structural.Facade;
 

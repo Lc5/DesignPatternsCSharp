@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Creational.Builder
+﻿namespace DesignPatterns.GangOfFour.Creational.Builder.Tests
 {
     using DesignPatterns.GangOfFour.Creational.Builder;
 

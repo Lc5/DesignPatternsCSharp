@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Behavioral.ChainOfResponsibility
+﻿namespace DesignPatterns.GangOfFour.Behavioral.ChainOfResponsibility.Tests
 {
     using DesignPatterns.GangOfFour.Behavioral.ChainOfResponsibility;
 

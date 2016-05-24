@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.Other.Creational.SimpleFactory
+﻿namespace DesignPatterns.Other.Creational.SimpleFactory.Tests
 {
     using System;
 

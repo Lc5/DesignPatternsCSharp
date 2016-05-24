@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Behavioral.Visitor
+﻿namespace DesignPatterns.GangOfFour.Behavioral.Visitor.Tests
 {
     using DesignPatterns.GangOfFour.Behavioral.Visitor;
 

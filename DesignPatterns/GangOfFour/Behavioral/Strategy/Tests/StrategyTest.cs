@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Behavioral.Strategy
+﻿namespace DesignPatterns.GangOfFour.Behavioral.Strategy.Tests
 {
     using DesignPatterns.GangOfFour.Behavioral.Strategy;
 

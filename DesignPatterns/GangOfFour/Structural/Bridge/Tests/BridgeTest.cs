@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Structural.Bridge
+﻿namespace DesignPatterns.GangOfFour.Structural.Bridge.Tests
 {
     using DesignPatterns.GangOfFour.Structural.Bridge;
 

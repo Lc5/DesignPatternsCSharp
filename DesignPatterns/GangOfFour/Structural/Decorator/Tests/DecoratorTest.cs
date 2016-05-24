@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Structural.Decorator
+﻿namespace DesignPatterns.GangOfFour.Structural.Decorator.Tests
 {
     using DesignPatterns.GangOfFour.Structural.Decorator;
 

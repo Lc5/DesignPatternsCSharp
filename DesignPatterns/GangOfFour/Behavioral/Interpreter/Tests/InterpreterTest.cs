@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Behavioral.Interpreter
+﻿namespace DesignPatterns.GangOfFour.Behavioral.Interpreter.Tests
 {
     using System.Collections.Generic;
 

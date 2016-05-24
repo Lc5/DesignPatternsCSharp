@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Behavioral.State
+﻿namespace DesignPatterns.GangOfFour.Behavioral.State.Tests
 {
     using DesignPatterns.GangOfFour.Behavioral.State;
 

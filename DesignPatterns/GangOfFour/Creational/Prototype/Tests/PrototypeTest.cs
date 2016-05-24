@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Creational.Prototype
+﻿namespace DesignPatterns.GangOfFour.Creational.Prototype.Tests
 {
     using DesignPatterns.GangOfFour.Creational.Prototype;
 

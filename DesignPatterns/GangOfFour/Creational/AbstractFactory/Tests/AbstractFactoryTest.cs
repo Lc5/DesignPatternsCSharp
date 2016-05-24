@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Creational.AbstractFactory
+﻿namespace DesignPatterns.GangOfFour.Creational.AbstractFactory.Tests
 {
     using DesignPatterns.GangOfFour.Creational.AbstractFactory;
 

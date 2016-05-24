@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Behavioral.Command
+﻿namespace DesignPatterns.GangOfFour.Behavioral.Command.Tests
 {
     using DesignPatterns.GangOfFour.Behavioral.Command;
 

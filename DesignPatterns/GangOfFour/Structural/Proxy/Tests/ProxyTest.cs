@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Structural.Proxy
+﻿namespace DesignPatterns.GangOfFour.Structural.Proxy.Tests
 {
     using DesignPatterns.GangOfFour.Structural.Proxy;
 

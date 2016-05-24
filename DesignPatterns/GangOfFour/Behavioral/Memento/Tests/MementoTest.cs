@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Behavioral.Memento
+﻿namespace DesignPatterns.GangOfFour.Behavioral.Memento.Tests
 {
     using DesignPatterns.GangOfFour.Behavioral.Memento;
 

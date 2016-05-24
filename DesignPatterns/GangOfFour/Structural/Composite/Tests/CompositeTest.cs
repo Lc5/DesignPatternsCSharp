@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Structural.Composite
+﻿namespace DesignPatterns.GangOfFour.Structural.Composite.Tests
 {
     using DesignPatterns.GangOfFour.Structural.Composite;
 

@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Structural.Adapter
+﻿namespace DesignPatterns.GangOfFour.Structural.Adapter.Tests
 {
     using DesignPatterns.GangOfFour.Structural.Adapter;
 

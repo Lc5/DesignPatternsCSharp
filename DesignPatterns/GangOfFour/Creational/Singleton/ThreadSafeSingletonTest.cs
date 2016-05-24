@@ -1,7 +1,5 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Creational.Singleton
+﻿namespace DesignPatterns.GangOfFour.Creational.Singleton
 {
-    using DesignPatterns.GangOfFour.Creational.Singleton;
-
     using NUnit.Framework;
 
     [TestFixture]

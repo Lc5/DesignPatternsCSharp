@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Tests.GangOfFour.Structural.Flyweight
+﻿namespace DesignPatterns.GangOfFour.Structural.Flyweight.Tests
 {
     using DesignPatterns.GangOfFour.Structural.Flyweight;
 
