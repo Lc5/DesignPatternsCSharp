@@ -17,7 +17,11 @@
 
             @switch.Open();
 
-            @switch.Close();
+            // The light is on.
+
+            @switch.Close(); 
+            
+            // The light is off.
         }
     }
 }

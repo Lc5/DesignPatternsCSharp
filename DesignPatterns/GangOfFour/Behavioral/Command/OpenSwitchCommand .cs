@@ -11,7 +11,7 @@
 
         public void Execute()
         {
-            this.switchable.PowerOff();
+            this.switchable.PowerOn();
         }
     }
 }

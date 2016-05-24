@@ -13,7 +13,7 @@
 
         public void Update()
         {
-            Console.WriteLine("Observer {0} receieved an update.", this.Name);
+            Console.WriteLine("{0} receieved an update.", this.Name);
         }
     }
 }

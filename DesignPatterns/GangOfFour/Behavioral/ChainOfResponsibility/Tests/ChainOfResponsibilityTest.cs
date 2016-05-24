@@ -20,6 +20,12 @@
             handler2.Successor = handler3;
 
             handler1.HandleRequest(request);
+
+            // ConcreteHandler1 handled request: 1.
+
+            // ConcreteHandler2 handled request: 12.
+
+            // ConcreteHandler3 handled request: 23.
         }
     }
 }

@@ -13,7 +13,7 @@
 
         public void ReceiveMessage(T message)
         {
-            Console.WriteLine(this.name + " received " + message);
+            Console.WriteLine(this.name + " received " + message + ".");
         }
 
         public void SendMessage(IMediator<T> mediator, T message)

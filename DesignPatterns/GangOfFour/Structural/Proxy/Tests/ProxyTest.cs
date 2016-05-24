@@ -13,6 +13,8 @@
             var carProxy = new CarProxy(new Driver(21));
 
             carProxy.Drive();
+
+            // Driving car.
         }
 
         [Test]

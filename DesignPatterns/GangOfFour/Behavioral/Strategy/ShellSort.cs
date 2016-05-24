@@ -7,7 +7,7 @@
     {
         public void Sort(List<T> items)
         {
-            Console.WriteLine("Sorting list using Shellsort.");
+            Console.WriteLine("Sorting list using ShellSort.");
         }
     }
 }

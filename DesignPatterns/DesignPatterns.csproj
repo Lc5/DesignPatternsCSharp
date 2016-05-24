@@ -139,7 +139,7 @@
     <Compile Include="GangOfFour\Creational\FactoryMethod\ICar.cs" />
     <Compile Include="GangOfFour\Creational\Prototype\Tests\PrototypeTest.cs" />
     <Compile Include="GangOfFour\Creational\Singleton\Tests\SingletonTest.cs" />
-    <Compile Include="GangOfFour\Creational\Singleton\ThreadSafeSingletonTest.cs" />
+    <Compile Include="GangOfFour\Creational\Singleton\Tests\ThreadSafeSingletonTest.cs" />
     <Compile Include="GangOfFour\Structural\Adapter\Tests\AdapterTest.cs" />
     <Compile Include="GangOfFour\Structural\Bridge\Tests\BridgeTest.cs" />
     <Compile Include="GangOfFour\Structural\Composite\Tests\CompositeTest.cs" />

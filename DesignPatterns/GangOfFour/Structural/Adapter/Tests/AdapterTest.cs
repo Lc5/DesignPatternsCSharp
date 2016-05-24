@@ -18,7 +18,15 @@
         {
             book.Open();
 
+            // Opening the book.
+
+            // Pressing "Start" button.
+
             book.TurnPage();
+
+            // Turning the page.
+
+            // Pressing "Next page" button.
         }
     }
 }

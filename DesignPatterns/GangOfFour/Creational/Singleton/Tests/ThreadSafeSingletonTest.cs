@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.GangOfFour.Creational.Singleton
+﻿namespace DesignPatterns.GangOfFour.Creational.Singleton.Tests
 {
     using NUnit.Framework;
 

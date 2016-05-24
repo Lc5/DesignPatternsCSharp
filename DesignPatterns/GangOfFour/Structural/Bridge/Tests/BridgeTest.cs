@@ -19,6 +19,8 @@
             var circle = new Circle(0, 0, 10, drawingApi);
 
             circle.Draw();
+
+            // Drawing circle.
         }
     }
 }

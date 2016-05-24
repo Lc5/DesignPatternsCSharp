@@ -7,7 +7,7 @@
     {
         public void Sort(List<T> items)
         {
-            Console.WriteLine("Sorting list using merge sort.");
+            Console.WriteLine("Sorting list using MergeSort.");
         }
     }
 }

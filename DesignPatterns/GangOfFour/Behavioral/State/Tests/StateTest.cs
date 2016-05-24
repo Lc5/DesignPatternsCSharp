@@ -18,6 +18,24 @@
                 trafficLight.Change();
                 trafficLight.ReportState();
             }
+
+            // Red light.
+
+            // Red and yellow light.
+
+            // Green light.
+
+            // Yellow light.
+
+            // Red light.
+
+            // Red and yellow light.
+
+            // Green light.
+
+            // Yellow light.
+
+            // Red light.
         }
     }
 }

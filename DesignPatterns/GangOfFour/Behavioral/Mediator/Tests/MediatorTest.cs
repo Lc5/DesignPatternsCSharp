@@ -21,6 +21,10 @@
             mediator.Register(colleague3);
 
             colleague1.SendMessage(mediator, "Test message 1");
+
+            // Colleague 2 received Test message 1.
+
+            // Colleague 3 received Test message 1.
         }
     }
 }
