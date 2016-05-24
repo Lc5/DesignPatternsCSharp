@@ -30,6 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Moq, Version=4.2.1510.2205, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <HintPath>..\packages\Moq.4.2.1510.2205\lib\net40\Moq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.2.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.2.1\lib\net45\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,16 +48,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GangOfFour\Behavioral\ChainOfResponsibility\Tests\ChainOfResponsibilityTest.cs" />
     <Compile Include="GangOfFour\Behavioral\ChainOfResponsibility\ConcreteHandler3.cs" />
     <Compile Include="GangOfFour\Behavioral\ChainOfResponsibility\ConcreteHandler2.cs" />
     <Compile Include="GangOfFour\Behavioral\ChainOfResponsibility\ConcreteHandler1.cs" />
     <Compile Include="GangOfFour\Behavioral\ChainOfResponsibility\Handler.cs" />
+    <Compile Include="GangOfFour\Behavioral\Command\Tests\CommandTest.cs" />
     <Compile Include="GangOfFour\Behavioral\Command\OpenSwitchCommand .cs" />
     <Compile Include="GangOfFour\Behavioral\Command\CloseSwitchCommand.cs" />
     <Compile Include="GangOfFour\Behavioral\Command\ICommand.cs" />
     <Compile Include="GangOfFour\Behavioral\Command\ISwitchable.cs" />
     <Compile Include="GangOfFour\Behavioral\Command\Light.cs" />
     <Compile Include="GangOfFour\Behavioral\Command\Switch.cs" />
+    <Compile Include="GangOfFour\Behavioral\Interpreter\Tests\InterpreterTest.cs" />
     <Compile Include="GangOfFour\Behavioral\Interpreter\SubtractExpression.cs" />
     <Compile Include="GangOfFour\Behavioral\Interpreter\AddExpression.cs" />
     <Compile Include="GangOfFour\Behavioral\Interpreter\IExpression.cs" />
@@ -59,18 +70,23 @@
     <Compile Include="GangOfFour\Behavioral\Iterator\Collection.cs" />
     <Compile Include="GangOfFour\Behavioral\Iterator\Iterator.cs" />
     <Compile Include="GangOfFour\Behavioral\Iterator\IIterator.cs" />
+    <Compile Include="GangOfFour\Behavioral\Iterator\Tests\IteratorTest.cs" />
     <Compile Include="GangOfFour\Behavioral\Mediator\Colleague.cs" />
     <Compile Include="GangOfFour\Behavioral\Mediator\IColleague.cs" />
     <Compile Include="GangOfFour\Behavioral\Mediator\IMediator.cs" />
     <Compile Include="GangOfFour\Behavioral\Mediator\Mediator.cs" />
+    <Compile Include="GangOfFour\Behavioral\Mediator\Tests\MediatorTest.cs" />
     <Compile Include="GangOfFour\Behavioral\Memento\CareTaker.cs" />
     <Compile Include="GangOfFour\Behavioral\Memento\Memento.cs" />
+    <Compile Include="GangOfFour\Behavioral\Memento\Tests\MementoTest.cs" />
     <Compile Include="GangOfFour\Behavioral\Memento\Originator.cs" />
     <Compile Include="GangOfFour\Behavioral\Observer\IObserver.cs" />
     <Compile Include="GangOfFour\Behavioral\Observer\ISubject.cs" />
     <Compile Include="GangOfFour\Behavioral\Observer\Observer.cs" />
+    <Compile Include="GangOfFour\Behavioral\Observer\Tests\ObserverTest.cs" />
     <Compile Include="GangOfFour\Behavioral\Observer\Subject.cs" />
     <Compile Include="GangOfFour\Behavioral\State\RedYellowLight.cs" />
+    <Compile Include="GangOfFour\Behavioral\State\Tests\StateTest.cs" />
     <Compile Include="GangOfFour\Behavioral\State\YellowLight.cs" />
     <Compile Include="GangOfFour\Behavioral\State\RedLight.cs" />
     <Compile Include="GangOfFour\Behavioral\State\GreenLight.cs" />
@@ -81,9 +97,11 @@
     <Compile Include="GangOfFour\Behavioral\Strategy\ShellSort.cs" />
     <Compile Include="GangOfFour\Behavioral\Strategy\QuickSort.cs" />
     <Compile Include="GangOfFour\Behavioral\Strategy\SortedList.cs" />
+    <Compile Include="GangOfFour\Behavioral\Strategy\Tests\StrategyTest.cs" />
     <Compile Include="GangOfFour\Behavioral\TemplateMethod\DataExporter.cs" />
     <Compile Include="GangOfFour\Behavioral\TemplateMethod\PdfExporter.cs" />
     <Compile Include="GangOfFour\Behavioral\TemplateMethod\ExcelExporter.cs" />
+    <Compile Include="GangOfFour\Behavioral\TemplateMethod\Tests\TemplateMethodTest.cs" />
     <Compile Include="GangOfFour\Behavioral\Visitor\Document.cs" />
     <Compile Include="GangOfFour\Behavioral\Visitor\DocumentPart.cs" />
     <Compile Include="GangOfFour\Behavioral\Visitor\HtmlVisitor.cs" />
@@ -92,6 +110,8 @@
     <Compile Include="GangOfFour\Behavioral\Visitor\Hyperlink.cs" />
     <Compile Include="GangOfFour\Behavioral\Visitor\LatexVisitor.cs" />
     <Compile Include="GangOfFour\Behavioral\Visitor\PlainText.cs" />
+    <Compile Include="GangOfFour\Behavioral\Visitor\Tests\VisitorTest.cs" />
+    <Compile Include="GangOfFour\Creational\AbstractFactory\Tests\AbstractFactoryTest.cs" />
     <Compile Include="GangOfFour\Creational\AbstractFactory\IWindow.cs" />
     <Compile Include="GangOfFour\Creational\AbstractFactory\IContextMenu.cs" />
     <Compile Include="GangOfFour\Creational\AbstractFactory\IButton.cs" />
@@ -104,6 +124,7 @@
     <Compile Include="GangOfFour\Creational\AbstractFactory\Windows\GuiFactory.cs" />
     <Compile Include="GangOfFour\Creational\AbstractFactory\Windows\Window.cs" />
     <Compile Include="GangOfFour\Creational\AbstractFactory\Windows\ContextMenu.cs" />
+    <Compile Include="GangOfFour\Creational\Builder\Tests\BuilderTest.cs" />
     <Compile Include="GangOfFour\Creational\Builder\Car.cs" />
     <Compile Include="GangOfFour\Creational\Builder\CarBuilder.cs" />
     <Compile Include="GangOfFour\Creational\Builder\CarBuilderDirector.cs" />
@@ -111,10 +132,22 @@
     <Compile Include="GangOfFour\Creational\Builder\ICar.cs" />
     <Compile Include="GangOfFour\Creational\FactoryMethod\AudiFactory.cs" />
     <Compile Include="GangOfFour\Creational\FactoryMethod\BmwFactory.cs" />
+    <Compile Include="GangOfFour\Creational\FactoryMethod\Tests\FactoryMethodTest.cs" />
     <Compile Include="GangOfFour\Creational\FactoryMethod\ICarFactory.cs" />
     <Compile Include="GangOfFour\Creational\FactoryMethod\Audi.cs" />
     <Compile Include="GangOfFour\Creational\FactoryMethod\Bmw.cs" />
     <Compile Include="GangOfFour\Creational\FactoryMethod\ICar.cs" />
+    <Compile Include="GangOfFour\Creational\Prototype\Tests\PrototypeTest.cs" />
+    <Compile Include="GangOfFour\Creational\Singleton\Tests\SingletonTest.cs" />
+    <Compile Include="GangOfFour\Creational\Singleton\ThreadSafeSingletonTest.cs" />
+    <Compile Include="GangOfFour\Structural\Adapter\Tests\AdapterTest.cs" />
+    <Compile Include="GangOfFour\Structural\Bridge\Tests\BridgeTest.cs" />
+    <Compile Include="GangOfFour\Structural\Composite\Tests\CompositeTest.cs" />
+    <Compile Include="GangOfFour\Structural\Decorator\Tests\DecoratorTest.cs" />
+    <Compile Include="GangOfFour\Structural\Facade\Tests\FacadeTest.cs" />
+    <Compile Include="GangOfFour\Structural\Flyweight\Tests\FlyweightTest.cs" />
+    <Compile Include="GangOfFour\Structural\Proxy\Tests\ProxyTest.cs" />
+    <Compile Include="Other\Creational\ObjectPool\Tests\ObjectPoolTest.cs" />
     <Compile Include="Other\Creational\ObjectPool\Pool.cs" />
     <Compile Include="Other\Creational\ObjectPool\PooledObject.cs" />
     <Compile Include="GangOfFour\Creational\Prototype\ConcretePrototype2.cs" />
@@ -126,6 +159,7 @@
     <Compile Include="GangOfFour\Creational\Singleton\Singleton.cs" />
     <Compile Include="GangOfFour\Creational\Singleton\ThreadSafeSingleton.cs" />
     <Compile Include="Other\Creational\SimpleFactory\ICar.cs" />
+    <Compile Include="Other\Creational\SimpleFactory\Tests\SimpleFactoryTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="GangOfFour\Structural\Adapter\Book.cs" />
     <Compile Include="GangOfFour\Structural\Adapter\EbookAdapter.cs" />
@@ -156,6 +190,12 @@
     <Compile Include="GangOfFour\Structural\Proxy\CarProxy.cs" />
     <Compile Include="GangOfFour\Structural\Proxy\Driver.cs" />
     <Compile Include="GangOfFour\Structural\Proxy\ICar.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
