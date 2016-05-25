@@ -45,6 +45,10 @@ The project can be compiled and run using Visual Studio 2015.
 
 ## Other patterns
 
+### Behavioral
+
+* [NullObject](DesignPatterns/Other/Behavioral/NullObject) - encapsulates the absence of an object by providing a substitutable alternative, that offers suitable default "do nothing" behavior.
+
 ### Creational
 
 * [ObjectPool](DesignPatterns/Other/Creational/ObjectPool) - avoids expensive acquisition and release of resources by recycling objects that are no longer in use.
