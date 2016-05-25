@@ -16,17 +16,17 @@
             list.Items.AddRange(new[] { "xyz", "abc", "ghi", "def" });
             list.Sort();
 
-            // Sorting list using QuickSort.
+            // OUTPUT: Sorting list using QuickSort.
 
             list.SortStrategy = new MergeSort<string>();
             list.Sort();
 
-            // Sorting list using MergeSort.
+            // OUTPUT: Sorting list using MergeSort.
 
             list.SortStrategy = new ShellSort<string>();
             list.Sort();
 
-            // Sorting list using ShellSort.
+            // OUTPUT: Sorting list using ShellSort.
         }
     }
 }

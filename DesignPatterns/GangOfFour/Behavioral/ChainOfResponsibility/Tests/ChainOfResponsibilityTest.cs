@@ -21,11 +21,11 @@
 
             handler1.HandleRequest(request);
 
-            // ConcreteHandler1 handled request: 1.
+            // OUTPUT: ConcreteHandler1 handled request: 1.
 
-            // ConcreteHandler2 handled request: 12.
+            // OUTPUT: ConcreteHandler2 handled request: 12.
 
-            // ConcreteHandler3 handled request: 23.
+            // OUTPUT: ConcreteHandler3 handled request: 23.
         }
     }
 }

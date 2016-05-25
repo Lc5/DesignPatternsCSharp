@@ -14,7 +14,7 @@
 
             carProxy.Drive();
 
-            // Driving car.
+            // OUTPUT: Driving car.
         }
 
         [Test]

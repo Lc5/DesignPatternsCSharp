@@ -19,23 +19,23 @@
                 trafficLight.ReportState();
             }
 
-            // Red light.
+            // OUTPUT: Red light.
 
-            // Red and yellow light.
+            // OUTPUT: Red and yellow light.
 
-            // Green light.
+            // OUTPUT: Green light.
 
-            // Yellow light.
+            // OUTPUT: Yellow light.
 
-            // Red light.
+            // OUTPUT: Red light.
 
-            // Red and yellow light.
+            // OUTPUT: Red and yellow light.
 
-            // Green light.
+            // OUTPUT: Green light.
 
-            // Yellow light.
+            // OUTPUT: Yellow light.
 
-            // Red light.
+            // OUTPUT: Red light.
         }
     }
 }

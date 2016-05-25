@@ -147,6 +147,11 @@
     <Compile Include="GangOfFour\Structural\Facade\Tests\FacadeTest.cs" />
     <Compile Include="GangOfFour\Structural\Flyweight\Tests\FlyweightTest.cs" />
     <Compile Include="GangOfFour\Structural\Proxy\Tests\ProxyTest.cs" />
+    <Compile Include="Other\Behavioral\NullObject\ILogger.cs" />
+    <Compile Include="Other\Behavioral\NullObject\ConsoleLogger.cs" />
+    <Compile Include="Other\Behavioral\NullObject\NullLogger.cs" />
+    <Compile Include="Other\Behavioral\NullObject\Service.cs" />
+    <Compile Include="Other\Behavioral\NullObject\Tests\NullLoggerTest.cs" />
     <Compile Include="Other\Creational\ObjectPool\Tests\ObjectPoolTest.cs" />
     <Compile Include="Other\Creational\ObjectPool\Pool.cs" />
     <Compile Include="Other\Creational\ObjectPool\PooledObject.cs" />

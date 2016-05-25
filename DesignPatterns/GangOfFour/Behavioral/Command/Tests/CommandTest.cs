@@ -17,11 +17,11 @@
 
             @switch.Open();
 
-            // The light is on.
+            // OUTPUT: The light is on.
 
             @switch.Close(); 
             
-            // The light is off.
+            // OUTPUT: The light is off.
         }
     }
 }

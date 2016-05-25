@@ -20,7 +20,7 @@
 
             circle.Draw();
 
-            // Drawing circle.
+            // OUTPUT: Drawing circle.
         }
     }
 }

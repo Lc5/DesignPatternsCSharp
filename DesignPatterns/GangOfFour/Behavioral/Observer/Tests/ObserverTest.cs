@@ -20,15 +20,15 @@
 
             subject.Notify();
 
-            // Observer 1 receieved an update.
+            // OUTPUT: Observer 1 receieved an update.
 
-            // Observer 2 receieved an update.
+            // OUTPUT: Observer 2 receieved an update.
 
             subject.Unsubscribe(observer2);
 
             subject.Notify();
 
-            // Observer 1 receieved an update.
+            // OUTPUT: Observer 1 receieved an update.
         }
     }
 }

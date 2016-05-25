@@ -22,9 +22,9 @@
 
             colleague1.SendMessage(mediator, "Test message 1");
 
-            // Colleague 2 received Test message 1.
+            // OUTPUT: Colleague 2 received Test message 1.
 
-            // Colleague 3 received Test message 1.
+            // OUTPUT: Colleague 3 received Test message 1.
         }
     }
 }
