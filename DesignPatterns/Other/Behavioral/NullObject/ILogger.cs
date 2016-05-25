@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Other.Behavioral.NullObject
 {
-    interface ILogger
+    public interface ILogger
     {
         void Log(string message);
     }

@@ -152,6 +152,7 @@
     <Compile Include="Other\Behavioral\NullObject\NullLogger.cs" />
     <Compile Include="Other\Behavioral\NullObject\Service.cs" />
     <Compile Include="Other\Behavioral\NullObject\Tests\NullLoggerTest.cs" />
+    <Compile Include="Other\Behavioral\Specification\ISpecification.cs" />
     <Compile Include="Other\Creational\ObjectPool\Tests\ObjectPoolTest.cs" />
     <Compile Include="Other\Creational\ObjectPool\Pool.cs" />
     <Compile Include="Other\Creational\ObjectPool\PooledObject.cs" />

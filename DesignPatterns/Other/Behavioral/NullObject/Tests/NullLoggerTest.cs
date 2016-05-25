@@ -4,7 +4,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    class NullLoggerTest
+    public class NullLoggerTest
     {
         [Test]
         public void TestNullLogger()
@@ -20,5 +20,6 @@
             var service2 = new Service(nullLogger);
 
             service2.PerformOperation();
+        }
     }
 }

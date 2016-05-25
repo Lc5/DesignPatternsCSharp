@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Other.Behavioral.NullObject
 {
-    class Service
+    public class Service
     {
         private ILogger logger;
 
