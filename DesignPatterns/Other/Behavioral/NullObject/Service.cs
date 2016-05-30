@@ -2,7 +2,7 @@
 {
     public class Service
     {
-        private ILogger logger;
+        private readonly ILogger logger;
 
         public Service(ILogger logger)
         {
