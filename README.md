@@ -48,6 +48,7 @@ The project can be compiled and run using Visual Studio 2015.
 ### Behavioral
 
 * [NullObject](DesignPatterns/Other/Behavioral/NullObject) - encapsulates the absence of an object by providing a substitutable alternative, that offers suitable default "do nothing" behavior.
+* [Specification](DesignPatterns/Other/Behavioral/Specification) - allows defining business rules as classes, combining them and checking against.
 
 ### Creational
 
