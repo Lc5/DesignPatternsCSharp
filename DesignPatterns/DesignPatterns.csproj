@@ -126,7 +126,7 @@
     <Compile Include="GangOfFour\Creational\AbstractFactory\Windows\ContextMenu.cs" />
     <Compile Include="GangOfFour\Creational\Builder\Tests\BuilderTest.cs" />
     <Compile Include="GangOfFour\Creational\Builder\Car.cs" />
-    <Compile Include="GangOfFour\Creational\Builder\CarBuilder.cs" />
+    <Compile Include="GangOfFour\Creational\Builder\AudiA8CarBuilder.cs" />
     <Compile Include="GangOfFour\Creational\Builder\CarBuilderDirector.cs" />
     <Compile Include="GangOfFour\Creational\Builder\ICarBuilder.cs" />
     <Compile Include="GangOfFour\Creational\Builder\ICar.cs" />
