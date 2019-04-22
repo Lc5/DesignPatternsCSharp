@@ -4,14 +4,14 @@
     {
         ICar BuildCar();
 
-        ICarBuilder SetColor(string color);
+        ICarBuilder SetColor();
 
-        ICarBuilder SetEngineCapacity(int engineCapacity);
+        ICarBuilder SetEngineCapacity();
 
-        ICarBuilder SetName(string name);
+        ICarBuilder SetName();
 
-        ICarBuilder SetNumberOfDoors(int numberOfDoors);
+        ICarBuilder SetNumberOfDoors();
 
-        ICarBuilder SetNumberOfSeats(int numberOfSeats);
+        ICarBuilder SetNumberOfSeats();
     }
 }

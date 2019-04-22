@@ -10,7 +10,7 @@
         [Test]
         public void TestBuilder()
         {
-            var carBuilderDirector = new CarBuilderDirector(new CarBuilder());
+            var carBuilderDirector = new CarBuilderDirector(new AudiA8CarBuilder());
             var car = carBuilderDirector.BuildCar();
 
             Assert.That(car.Color, Is.EqualTo("Blue"));
